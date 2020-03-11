@@ -1,0 +1,762 @@
+#header {
+    position: static;
+    background-color: #fff;
+}
+/*从这里开始*/
+html {
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+body {
+    position: relative;
+    width: 100%;
+    min-width: 1008px;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: #4B4848;
+}
+.w1008{
+	width: 1008px;
+	position: relative;
+	margin: 0 auto;
+}
+h4{
+	color: #4b4848;
+	text-align: center;
+	font-size: 24px;
+	height:40px;
+	line-height:40px;
+	font-weight: bold;
+}
+h5 {
+	color: #4b4848;
+  	text-align: center;
+  	font-weight: normal;
+  	line-height: 25px;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+p{
+	font-size: 15px;
+	text-align: center;
+	color: #262626;
+	line-height: 30px;
+}
+h2 {
+    color: #666;
+}
+.animat {
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    transition: 0.4s all ease-out;
+    -webkit-transition: 0.4s all ease-out;
+    -moz-transition: 0.4s all ease;
+    -ms-transition: 0.4s all ease;
+}
+/* 第一屏 */
+.page-one{
+	padding-top: 60px;
+}
+.one-mac{
+	width:845px;
+	height:219px;
+	background-image:url(../img/distribution/one-mac.png);
+	background-position:center 0 ;
+	background-repeat:no-repeat;
+	margin:0 auto;
+	opacity: 1;
+}
+.one-point{
+	margin:0 auto;
+	width:660px;
+	padding:70px 0;
+}
+.one-point dl{
+	width:220px;
+	height:120px;
+	float:left;
+	text-align:center;
+}
+.one-point dl dt{
+	width: 67px;
+	height: 67px;
+	margin: 0 auto;
+}
+.one-point .lipic_a dt{
+	background: url(../img/distribution/one-point1.png) center center no-repeat;
+}
+.one-point .lipic_b dt{
+	background: url(../img/distribution/one-point2.png) center center no-repeat;
+}
+.one-point .lipic_c dt{
+	background: url(../img/distribution/one-point3.png) center center no-repeat;
+}
+.one-point dd{
+	color: #666;
+	padding-top: 20px;
+	font-weight: bold;
+}
+.one-text{
+	text-align:center;
+	padding-bottom: 124px;
+}
+.one-text h5{
+	margin: 2px 0 13px 0;
+}
+.one-text p{
+	height: 30px;
+    font-weight: normal;
+}
+
+.poor .page-one .one-mac {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+.support .page-one .one-mac{
+    opacity: 0;
+}
+.support .page-one .one-mac.animat {
+        opacity: 1;
+}
+.support .page-one .lipic_a dt{
+	 background: url(../img/distribution/one-point1.png) no-repeat center center;
+    background-size: contain;
+    opacity: 0;
+    -webkit-transform: scale(0,0);
+    -moz-transform: scale(0,0);
+    -ms-transform: scale(0,0);
+    -o-transform: scale(0,0);
+    transform: scale(0,0);
+}
+.support .page-one  .lipic_b dt{
+	 background: url(../img/distribution/one-point2.png) no-repeat center center;
+    background-size: contain;
+    opacity: 0;
+    -webkit-transform: scale(0,0);
+    -moz-transform: scale(0,0);
+    -ms-transform: scale(0,0);
+    -o-transform: scale(0,0);
+    transform: scale(0,0);
+}
+.support .page-one  .lipic_c dt{
+	 background: url(../img/distribution/one-point3.png) no-repeat center center;
+    background-size: contain;
+    opacity: 0;
+    -webkit-transform: scale(0,0);
+    -moz-transform: scale(0,0);
+    -ms-transform: scale(0,0);
+    -o-transform: scale(0,0);
+    transform: scale(0,0);
+}
+.support .page-one .lipic_a dt.animat,.support .page-one .lipic_b dt.animat,.support .page-one .lipic_c dt.animat{
+	opacity: 1;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+/*第二屏*/
+.page_two{
+	background: #e6e7e9;
+	padding-bottom: 80px;
+}
+.page_two .two_box{
+	padding-top: 80px;
+}
+.page_two .two_mac{
+	width: 789px;
+	height: 533px;
+	margin:0 auto;
+	margin-top: 75px;
+	background: url(../img/distribution/two-mac.png) 0 0 no-repeat;
+}
+
+/* 第三屏 */
+.page_three{
+	padding-bottom: 80px;
+}
+.page_three .three_box{
+	padding-top: 80px;
+}
+.page_three .three_mac{
+	width: 797px;
+	height: 487px;
+	margin:0 auto;
+	margin-top: 75px;
+	position: relative;
+}
+.page_three .three_mac_1{
+	width: 111px;
+	height: 112px;
+	background: url(../img/distribution/three-mac_1.png) 0 0 no-repeat;
+	position: absolute;
+	top: 176px;
+	left: 0px;
+}
+.page_three .three_mac_2{
+	width: 12px;
+	background: url(../img/distribution/three-mac_2.png) center center no-repeat;
+	position: absolute;
+	left:124px;
+	top: 232px;
+	bottom: 253px;
+}
+.page_three .three_mac_3{
+	width: 653px;
+	height: 487px;
+	background: url(../img/distribution/three-mac_3.png) 0 0 no-repeat;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.page_three .three_mac span{
+	display: block;
+	opacity: 0;
+}
+.page_three .three_mac span.animat{
+	opacity: 1;
+}
+.page_three .three_mac_2.animat{
+	top: 35px;
+	bottom:40px;
+}
+/* 第四屏 */
+.page_four{
+	background: #f3efe8;
+	padding-bottom: 113px;
+}
+.page_four .four_box{
+	padding-top: 80px;
+}
+.page_four .four_text h4{
+	text-align: left;
+}
+.page_four .four_text h5{
+	text-align: left;
+}
+.page_four .four_text p{
+	text-align: left;
+}
+.page_four .four_mac{
+	width: 566px;
+	height: 356px;
+	margin: 0 auto;
+	position: relative;
+	background: url(../img/distribution/four-mac.png) 0 0 no-repeat;	
+	margin-top: 75px;
+}
+.page_four .four_mac span{
+	display: block;
+}
+.page_four .four_mac .four_mac_a{
+	width: 0;
+	height: 159px;
+	background: url(../img/distribution/four-mac_a.png) right bottom no-repeat;
+	position: absolute;
+	top: 0px;
+	right: 400px;
+}
+.page_four .four_mac .four_mac_b{
+	width: 0px;
+	height: 146px;
+	background: url(../img/distribution/four-mac_b.png) left top no-repeat;
+	position:absolute;
+	top: 55px;
+	left: 409px;
+}
+.page_four .four_mac .four_mac_c{
+	width:0;
+    height: 39px;
+    background: url(../img/distribution/four-mac_c.png) no-repeat right top;
+    position: absolute;
+    bottom: 96px;
+    right: 458px;
+}
+.page_four .four_mac .four_mac_d{
+	width: 0;
+	height: 78px;
+    background: url(../img/distribution/four-mac_d.png) left top no-repeat;
+    position: absolute;
+    bottom: -16px;
+    left: 270px;
+}
+/* 第五屏 */
+.page_five{
+	padding-bottom: 80px;
+}
+.page_five .five_box{
+	padding-top: 80px;
+}
+.page_five .five_mac{
+	width: 792px;
+	height: 600px;
+	margin:0 auto;
+	background: url(../img/distribution/five-mac.png) 0 0 no-repeat;
+	margin-top: 75px;
+	position: relative;
+}
+.page_five .five_mac span{
+	display: block;
+}
+.page_five .five_mac_1{
+	width: 62px;
+	height: 58px;
+	background: url(../img/distribution/five-mac_01.png) 0 0 no-repeat;
+	position: absolute;
+	top: 113px;
+	left: 0;
+}
+.page_five .five_mac_2{
+	width: 0px;
+	height: 15px;
+	background: url(../img/distribution/five-mac_02.png) 0 0 no-repeat;
+	position: absolute;
+	top: 135px;
+	left: 68px;
+}
+.page_five .five_mac_3{
+	width: 96px;
+	height: 96px;
+	background: url(../img/distribution/five-mac_03.png) 0 0 no-repeat;
+	position: absolute;
+	top: 76px;
+	left: 114px;
+	z-index: -3;
+}
+.page_five .five_mac_4{
+	width: 45px;
+	height: 11px;
+	background: url(../img/distribution/five-mac_04.png) 0 0 no-repeat;
+	position: absolute;
+	top: 123px;
+	left: 216px;
+}	
+.page_five .five_mac_5{
+	width: 120px;
+	height: 120px;
+	background: url(../img/distribution/five-mac_05.png) 0 0 no-repeat;
+	position: absolute;
+	top: -15px;
+	left: 167px;
+}
+.page_five .five_mac_6{
+	width: 0px; 
+	height: 42px;
+	background: url(../img/distribution/five-mac_06.png) 0 0 no-repeat;
+	position: absolute;
+	top: 121px;
+	left: 215px;
+}
+.page_five .five_mac_7{
+	width: 110px;
+	height: 136px;
+	background: url(../img/distribution/five-mac_07.png) 0 0 no-repeat;
+	position: absolute;
+	top: 66px;
+	left: 335px;
+}
+.page_five .five_mac_8{
+	width: 192px;
+	height: 245px;
+	background: url(../img/distribution/five-mac_08.png) 0 0 no-repeat;
+	position: absolute;
+	top: 102px;
+	left: 438px;
+}
+.page_five .five_mac_9{
+	width: 369px;
+	height: 104px;
+	background: url(../img/distribution/five-mac_09.png) 0 0 no-repeat;
+	position: absolute;
+	top: 245px;
+	left: 284px;
+}
+.page_five .five_mac_10{
+	width: 201px;
+	height: 234px;
+	background: url(../img/distribution/five-mac_10.png) 0 0 no-repeat;
+	position: absolute;
+	top: 262px;
+	left: 68px;
+}
+.page_five .five_mac_11{
+	width: 235px;
+	height: 106px;
+	background: url(../img/distribution/five-mac_11.png) 0 0 no-repeat;
+	position: absolute;
+	top: 378px;
+	left: 226px;
+}
+.page_five .five_mac_12{
+	width: 191px;
+	height: 360px;
+	background: url(../img/distribution/five-mac_12.png) 0 0 no-repeat;
+	position: absolute;
+	bottom: -10px;
+	right: 0px;
+}
+.support .page_five .five_mac span{
+    opacity: 0;
+}
+.support .page_five .five_mac span.animat{
+    opacity: 1;
+}
+.support .page_five .five_mac span:nth-child(2).animat{
+	width: 48px;
+	transition: 0.6s all ease-out;
+}
+@-webkit-keyframes span_five{
+	0%{-webkit-transform:scale(0.3);}
+	10%{-webkit-transform:scale(1);}
+	30%{opacity: 0;}
+	45%{opacity: 1;}
+	60%{opacity: 0;}
+	75%{opacity: 1;}
+	100%{-webkit-transform:scale(1);opacity:1;} 
+}
+@-o-keyframes span_five{
+	0%{-o-transform:scale(0.3);}
+	10%{-o-transform:scale(1);}
+	20%{-o-transform:scale(0.3);}
+	30%{-o-transform:scale(1);}
+	40%{opacity: 1;}
+	50%{opacity: .3;}
+	98%{opacity: 1;}
+	100%{-webkit-transform:scale(1);opacity:1;} 
+}
+@-ms-keyframes span_five{
+	0%{-ms-transform:scale(0.3);}
+	10%{-ms-transform:scale(1);}
+	20%{-ms-transform:scale(0.3);}
+	30%{-ms-transform:scale(1);}
+	40%{opacity: 1;}
+	50%{opacity: .3;}
+	98%{opacity: 1;}
+	100%{-webkit-transform:scale(1);opacity:1;} 
+}
+@-moz-keyframes span_five{
+	0%{-moz-transform:scale(0.3);}
+	10%{-moz-transform:scale(1);}
+	20%{-moz-transform:scale(0.3);}
+	30%{-moz-transform:scale(1);}
+	40%{opacity: 1;}
+	50%{opacity: .3;}
+	98%{opacity: 1;}
+	100%{-webkit-transform:scale(1);opacity:1;} 
+}
+.support .page_five .five_mac span:nth-child(5).animat1{
+	opacity: 1;
+	animation: span_five 5s ease-out;
+	-o-animation: span_five 5s ease-out;
+	-ms-animation: span_five 5s ease-out;
+	-moz-animation: span_five 5s ease-out;
+	-webkit-animation: span_five 5s ease-out;
+	transition: 1s all ease-out;
+}
+.support .page_five .five_mac span:nth-child(6).animat{
+	width: 124px;
+	transition: 0.6s all ease-out;
+	
+}
+.support .page_five .five_mac span:nth-child(12).animat{
+	opacity: 1;
+	bottom: 118px;	
+	transition: 0.6s all ease-out;
+}
+/* 第六屏 */
+.page_six{
+	background: #ededed;
+	padding-bottom: 80px;
+}
+.page_six .six_box{
+	padding-top: 80px;
+}
+.page_six .six_mac{
+	width: 809px;
+	height: 459px;
+	margin:0 auto;
+	margin-top: 75px;
+	position: relative;
+}
+.page_six .six_mac .six_mac_a{
+	width: 685px;
+	height: 551px;
+	display: block;
+	position: absolute;
+	top: -14px;
+	left: -239px;
+	background: url(../img/distribution/six-mac_a.png) 0 0 no-repeat;
+}
+.page_six .six_mac .six_mac_b{
+	width: 508px;
+	height: 413px;
+	background: url(../img/distribution/six-mac_b.png) 0 0 no-repeat;
+	position: absolute;
+	top: 128px;
+	right: -220px;
+}
+.page_six .six_mac span{
+    opacity: 0;
+}
+.page_six .six_mac  span:nth-child(1).animat{
+    opacity: 1;
+    transform: translateX(200px);
+    transition: 0.8s all ease-out;
+}
+.page_six .six_mac  span:nth-child(2).animat{
+    opacity: 1;
+    transform: translateX(-210px);
+    transition: 0.8s all ease-out;
+}
+/* 第七屏 */
+.page_seven{
+	padding-bottom: 113px;
+}
+.page_seven .seven_box{
+	padding-top: 80px;
+}
+.page_seven .seven_box h4{
+	text-align: left;
+}
+.page_seven .seven_box h5{
+	text-align: left;
+}
+.page_seven .seven_mac{
+	width: 773px;
+	height: 641px;
+	margin: 0 auto;
+	margin-top: 75px;
+	background: url(../img/distribution/seven-mac.png) 0 0 no-repeat;	
+}
+/* 第八屏 */
+.page_eight{
+	background: #e6e7e9;
+	padding-bottom: 80px;
+}
+.page_eight .eight_box{
+	padding-top: 80px;
+}
+.page_eight .eight_mac{
+	width: 905px;
+	height: 688px;
+	margin:0 auto;
+	margin-top: 75px;
+	position: relative;
+}
+.page_eight .eight_mac h6{
+	width: 905px;
+	height: 156px;
+	background: url(../img/distribution/eight-mac.png) 0 0 no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.page_eight .eight_mac h6{
+	opacity: 0;	
+}
+.page_eight .eight_mac h6.animat{
+	opacity: 1;
+}
+.page_eight .eioght_mac span{
+	display: block;
+}
+.page_eight .eight_mac_01{
+	width: 346px;
+	height: 248px;
+	background: url(../img/distribution/eight_mac_01.png) 0 0 no-repeat;
+	position: absolute;
+	top: 123px;
+	right: 374px;
+}
+.page_eight .eight_mac_02{
+	width: 346px;
+	height: 220px;
+	background: url(../img/distribution/eight_mac_02.png) 0 0 no-repeat;
+	position: absolute;
+	top: 123px;
+	right: 12px;
+}
+.page_eight .eight_mac_03{
+	width: 346px;
+	height: 220px;
+	background: url(../img/distribution/eight_mac_03.png) 0 0 no-repeat;
+	position: absolute;
+	top:414px;
+	left: 185px;
+}
+.page_eight .eight_mac_04{
+	width: 346px;
+	height: 162px;
+	background: url(../img/distribution/eight_mac_04.png) 0 0 no-repeat;
+	position: absolute;
+	top: 414px;
+	right: 12px;
+}
+.page_eight .eight_mac span{
+	opacity: 0;
+}
+.page_eight .eight_mac span.animat{
+	transform: translateY(50px);
+	opacity: 1;
+}
+/*功能说明*/
+/*标题结构*/
+.info-title {
+    width: 868px;
+    margin: 0 auto;
+    text-align: left;
+}
+.info-title b {
+    font-size: 20px;
+    color: #000;
+}
+.info-title p {
+    font-size: 18px;
+    color: #4b4848;
+    margin-top: 13px;
+    text-align: left;
+}
+.para-block {
+width: 850px;
+margin: 0 auto;
+padding: 30px 0 10px 0;
+border-bottom: 1px solid #818181;
+}
+
+.para-block dd {
+    font-weight: bold;
+}
+.para-left {
+    width: 245px;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+.list-text {
+    float: left;
+}
+.list-text li {
+    height: 40px;
+    line-height: 1;
+    font-size: 14px;
+}
+.list-text li.p-title {
+    line-height: 1;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.two-point {
+    margin: 0 auto;
+    width: 660px;
+    padding: 70px 0;
+}
+
+.two-point dl {
+    width: 220px;
+    height: 120px;
+    float: left;
+    text-align: center;
+}
+
+.two-point dt img {
+    border: 0;
+    display: block;
+    margin: 0 auto;
+}
+
+.two-point dd {
+    color: #666;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.para-right {
+    width: 600px;
+    float: left;
+    color: #333;
+}
+
+.page-eleven {
+    width: 100%;
+    padding-top: 80px;
+    background: #fff;
+}
+.page-eleven .two-point {
+    padding: 0;
+}
+.page-eleven .two-point dl {
+    width: 70px;
+    height: 105px;
+    margin-right: 45px;
+}
+.page-eleven .two-point dl dt img {
+    width: 55px;
+    height: 55px;
+}
+.page-eleven .two-point dd {
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+.page-eleven .kjc dl dt{
+	height: 54px;
+}
+.page-eleven .kjc dl dt.one{
+	background: url(../img/energymanage/kjc-ico8.png) center center no-repeat ;
+	background-size: contain;
+}
+.page-eleven .kjc dl dt.two{
+	background: url(../img/energymanage/kjc-ico2.png) center center no-repeat;
+	background-size: contain;
+}
+.page-eleven .kjc dl dt.three{
+	background: url(../img/energymanage/kjc-ico4.png) center center no-repeat;
+	background-size: contain;
+}
+.page-eleven .kjc dl dt.four{
+	background: url(../img/energymanage/kjc-ico5.png) center center no-repeat;
+	background-size: contain;
+}
+.page-eleven .kjc dl dt.five{
+	background: url(../img/energymanage/kjc-ico6.png) center center no-repeat;
+	background-size: contain;
+}
+.page-eleven .kjc dl dt.six{
+	background: url(../img/energymanage/kjc-ico7.png) center center no-repeat;
+	background-size: contain;
+}
+.page-eleven .two-point dd{
+	padding-top:10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.kjc .two-point{
+	padding:0;
+}
+.page-eleven .kjc dl{
+	width: 180px;
+	height: 105px;
+	margin-right: 00px;
+}
+.page-eleven .kjc dd{
+	padding-top:10px;
+}
+
+
+
+
+
+

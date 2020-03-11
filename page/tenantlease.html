@@ -1,0 +1,432 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>租赁空间管理与付费系统</title>
+    <link rel="stylesheet" href="../css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="../css/headban.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../css/product_tenantlease.css" />
+    <script src="../js/common.js"></script>
+    <script type="text/javascript">
+    mobileLink("product/finein");
+    </script>
+    <script type="text/javascript" src="../js/jquery1.8.3.js"></script>
+    <script type="text/javascript" src="../js/product_tenantlease.js"></script>
+    <script type="text/javascript" src="../js/product_nav.js"></script>
+</head>
+
+<body class="">
+    <div id="wrap">
+        <!-- header -->
+        <div id="header">
+            <div class="persagy_head">
+                <div id="persagy_logo">
+                    <a href="index.html"></a>
+                </div>
+                <ul id="nav" class="first-menu">
+                    <li>
+                        <a href="index.html">
+                            <div class="head_home"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.htm" target="_self">关于我们</a>
+                        <ul class="second-menu">
+                            <li style="z-index:13"><a href="about.htm" class="borderTopNone" target="_self">公司简介</a></li>
+                            <li style="z-index:12"><a href="about_2.htm" style="border-bottom: 1px solid #e4e4e4;" target="_self">企业文化</a></li>
+                            <li style="z-index:11"><a href="about_3.htm" style="border-bottom: 1px solid #e4e4e4;" target="_self">知识产权声明</a></li>
+                            <li style="z-index:10"><a href="about_4.htm" style="border-bottom: 1px solid #e4e4e4;" target="_self">企业资质</a></li>
+                            <li style="z-index:9"><a href="aboutJoinus.html" style="border-bottom: 1px solid #e4e4e4;" target="_self">加入我们</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="news.htm" target="_self">新闻中心</a>
+                        <ul class="second-menu">
+                            <li style="z-index:11"><a href="news.htm" style="border-bottom: 1px solid #e4e4e4;" target="_self">公司新闻</a></li>
+                            <li style="z-index:10"><a href="news_2.htm" style="border-bottom: 1px solid #e4e4e4;" target="_self">媒体报道</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav_select">
+                        <a href="Products.htm">产品与服务</a>
+                        <ul class="second-menu">
+                            <li style="z-index:13"><a class="borderTopNone" href="javascript:void(0)">产品线</a>
+                                <ul class="third-menu long-ul">
+                                    <li><a href="energymanage.html">iSagy能源管理系统</a></li>
+                                    <li><a href="smartproperty.html">Opteam智慧物业管理系统</a></li>
+                                    <li><a href="distribution.html">Mindin配电监控系统</a></li>
+                                    <li><a href="tenantlease.html">Finein租赁空间管理与付费系统</a></li>
+                                    <li><a href="environHealth.html">wellzoom环境及健康监测系统</a></li>                                    
+                                    <li><a href="isagy.html">Beecom BIM运维管理系统</a></li>
+                                    <li><a href="mobile.html">手机能源管理应用</a></li>
+                                    <li><a href="http://impud.com" target="_blank">pudin智能插座</a></li>
+                                </ul>
+                            </li>
+                            <li style="z-index:12"><a style="border-bottom:1px solid #e4e4e4" href="Products.htm">解决方案</a>
+                                <ul class="third-menu">
+                                    <li><a href="Products.htm" target="_self">商业集团解决方案</a></li>
+                                    <li><a href="Products_9.htm" target="_self">医院解决方案</a></li>
+                                    <li><a href="Products_3.htm" target="_self">校园解决方案</a></li>
+                                    <li><a href="Products_2.htm" target="_self">工业解决方案</a></li>
+                                    <li><a href="Products_4.htm" target="_self">酒店解决方案</a></li>
+                                    <li><a href="Products_5.htm" target="_self">公共机构解决方案</a></li>
+                                </ul>
+                            </li>
+                            <li style="z-index:11"><a style="border-bottom: 1px solid #e4e4e4;" href="Products_7.htm">服务系统</a>
+                                <ul class="third-menu">
+                                    <li><a href="Products_7.htm" target="_self">现场系统集成</a></li>
+                                    <li><a href="Products_6.htm" target="_self">实时数据托管</a></li>
+                                    <li><a href="Products_8.htm" target="_self">远程绿色运营</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="laboratory.htm">创新实验室</a>
+                        <ul class="second-menu">
+                            <li style="z-index:12"><a class="borderTopNone" href="laboratory.htm" target="_self">技术平台</a>
+                                <ul class="third-menu">
+                                    <li><a href="laboratory.htm" target="_self">能源与环境物联感知</a></li>
+                                    <li><a href="laboratory_2.htm" target="_self">能效管理移动应用</a></li>
+                                    <li><a href="laboratory_3.htm" target="_self">实时数据私有云计算</a></li>
+                                </ul>
+                            </li>
+                            <li style="z-index:11"><a href="laboratory_4.htm" style="border-bottom: 1px solid #e4e4e4;" target="_self">核心技术</a>
+                                <ul class="third-menu">
+                                    <li><a href="laboratory_4.htm" target="_self">物理信息感知</a></li>
+                                    <li><a href="laboratory_5.htm" target="_self">大数据智能处理</a></li>
+                                    <li><a href="laboratory_6.htm" target="_self">人机交互</a></li>
+                                    <li><a href="laboratory_7.htm" target="_self">建筑节能</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li style="z-index:11">
+                        <a href="classicCase.html" target="_self">经典案例</a>
+                    </li>
+                    <li style="z-index:10">
+                        <a href="contactUs.html" target="_self">联系我们</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--layout-->
+        <div class="page page_a">
+            <div class="w1008">
+                <div class="box_pic"></div>
+                <div class="box_b">
+                    <ul>
+                        <li class="lipic_a">
+                            <span></span>
+                            <h2>一站式收费管理</h2>
+                            <h4>集中管理租户电水冷热等能耗费用<br />
+                                通过移动端方便快捷查询</h4>
+                        </li>
+                        <li class="lipic_b">
+                            <span></span>
+                            <h2>直观的能源管理</h2>
+                            <h4>实时监控租户的能源使用情况<br />
+                                及时对租户异常用能报警提示</h4>
+                        </li>
+                        <li class="lipic_c">
+                            <span></span>
+                            <h2>精细化租赁管理</h2>
+                            <h4>全面纵览租户信息<br />
+                                分析规划租户业态的组合分布</h4>
+                        </li>
+                    </ul>
+                </div>
+                <div class="box_c">
+                    <h1>租赁空间管理与付费系统</h1>
+                    <h3>Leasing Space Management and Payment System</h3>
+                    <h4>Finein租赁空间管理与付费系统是一套集商业租赁管理、能源统计计费、实时在线监测为一体的系统软件。</h4>
+                </div>
+            </div>
+        </div>
+        <div class="page page_b">
+            <div class=" w1008" style="width: 1250px;">
+                <div class="box_a">
+                    <div class="box_a_con">
+                        <h1>电、水、冷、热一站式管理</h1>
+                        <h3>Easy and Fast Payment </h3>
+                        <h5>一个平台完成租户多种能耗收费统计</h5>
+                        <h4>租户使用的电水冷热能耗统一接入，<br />
+                            在同一个平台内完成远程抄表和收费统计。</h4>
+                    </div>
+                    <div class="box_a_bg"></div>
+                </div>
+                <div class="box_b">
+                    <div class="box_b_con">
+                        <h1>独有租户能源状况实时监控界面</h1>
+                        <h3>Alarm in Absornal Condition</h3>
+                        <h5>1分钟内响应租户用能异常</h5>
+                        <h4>快速对余额不足、功率超限、用能异常等事件报警,<br />
+                            快速定位报警租户，确保租户正常经营活动。</h4>
+                    </div>
+                    <div class="box_b_bg"></div>
+                </div>
+            </div>
+        </div>
+        <div class="page page_c">
+            <div class=" w1008">
+                <div class="box_con">
+                    <h1>完善的租户与租区信息</h1>
+                    <h3>Connected in Mobile Internet </h3>
+                    <h5>实时、便捷的信息桥梁</h5>
+                    <h4>通过移动端APP查看费用信息、能耗数据、欠费提醒及账单推送，<br />
+                        为物业与租户构建一个便捷的信息沟通桥梁。</h4>
+                </div>
+                <div class="box_pic"></div>
+            </div>
+        </div>
+        <div class="page page_d">
+            <div class=" w1008">
+                <div class="box_d_con">
+                    <h1>72种充值故障处理方案</h1>
+                    <h3>72 Emergency Plans </h3>
+                    <h5>安全完善的在线充值流程</h5>
+                    <h4>在线充值过程中，我们考虑到了72种可能出问题的故障情况及应对解决方案，<br />
+                        安全、及时、准确的缴费过程，确保租户的正常经营活动。</h4>
+                </div>
+                <div class="box_d_pic">
+                    <ul>
+                        <li class="li_a"><span></span><em><i></i>协议层故障</em></li>
+                        <li class="li_b"><span></span><em><i></i>通讯层故障</em></li>
+                        <li class="li_c"><span></span><em><i></i>线路层故障</em></li>
+                        <li class="li_d"><span></span><em><i></i>表面层故障</em></li>
+                        <li class="li_e"><span></span><em><i></i>软件层故障</em></li>
+                    </ul>
+                    <div class="box_d_line"></div>
+                    <div class="box_d_display"></div>
+                    <div class="box_d_arrow"></div>
+                    <div class="box_d_iphone"></div>
+                </div>
+            </div>
+        </div>
+        <div class="page page_e">
+            <div class="w1008">
+                <h1>把租户和物业接入移动互联网</h1>
+                <h3>Perfect Reutal Information</h3>
+                <h5>为业主提供大数据租赁管理工具</h5>
+                <h4>全面的租户租赁档案录入管理，租户情况一目了然。筛选显示每个租赁区域属性、<br>
+                    机电信息，对空余区域安排招租计划。</h4>
+                <div class="box_pic">
+                    <ul>
+                        <li class="li1"></li>
+                        <li class="li2"></li>
+                        <li class="li3"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="page page_f">
+            <div class="w1008">
+                <h1>稳定高效的数据采集方案</h1>
+                <h3>More Stable，More Efficient</h3>
+                <h5>强大而可靠的硬件系列</h5>
+                <h4>方案选型和用料选择严格把关控制，生产环节遵守ISO质量体系标准，<br />
+                    并有严格的烤机环节和质检测试。</h4>
+                <div class="box_pic"></div>
+                <ul class="box_con">
+                    <li class="li1"></li>
+                    <li class="li2"></li>
+                    <li class="li3"></li>
+                    <li class="li4"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="page page_g">
+            <div class="w1008" style="width: 868px;">
+                <div class="info-title" style="padding-bottom: 50px;">
+                    <b>系统架构</b>
+                    <p>Framework Design</p>
+                </div>
+                <div class="box_pic"></div>
+            </div>
+        </div>
+        <div class="page-eleven">
+            <div class="eleven-box">
+                <div class="info-title" style="padding-bottom: 50px;">
+                    <b>参数表</b>
+                    <p>Parameters</p>
+                </div>
+                <div class="para-block clearfix">
+                    <div class="para-left">
+                        软件运行环境
+                    </div>
+                    <div class="para-right">
+                        <ul class="list-text" style="width: 330px; margin-right: 50px;">
+                            <li class="p-title">系统软件</li>
+                            <li>Windows Server 2008 R2 SP1x64（含Hyper-V v2）</li>
+                        </ul>
+                        <ul class="list-text">
+                            <li class="p-title">数据库系统软件:</li>
+                            <li>MySQL5</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="para-block clearfix">
+                    <div class="para-left">
+                        硬件运行环境
+                    </div>
+                    <div class="para-right">
+                        <ul class="list-text" style="width: 300px; margin-right: 80px;">
+                            <li class="p-title">云平台</li>
+                            <li>本地机架式+阿里云服务器</li>
+                            <li>16GB+8GB</li>
+                            <li>2TB raid1+1TB（阿里云）</li>
+                            <li>2.4G及以上</li>
+                            <li>6核及以上</li>
+                        </ul>
+                        <ul class="list-text">
+                            <li class="p-title">本地平台</li>
+                            <li>产品类型 ：本地机架式</li>
+                            <li>内存容量 ：16G</li>
+                            <li>硬盘容量 ：2TB raid1</li>
+                            <li>CPU频率 ：2.4G及以上</li>
+                            <li>CPU核心 ：6核及以上</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="para-block clearfix" style="padding-bottom: 40px;">
+                    <div class="para-left">
+                        移动端运行环境
+                    </div>
+                    <div class="para-right">
+                        <img src="../img/tenantlease/eleven-phone.png" alt="">
+                    </div>
+                </div>
+                <div class="para-block clearfix">
+                    <div class="para-left">
+                        软件参数
+                    </div>
+                    <div class="para-right">
+                        <ul class="list-text" style="width: 300px; margin-right: 80px;">
+                            <li>管理租户数 ：标配200租户，最大500租户</li>
+                            <li>同时访问用户数 ： &lt;200
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="para-block clearfix">
+                    <div class="para-left">
+                        PC端
+                    </div>
+                    <div class="para-right">
+                        <ul class="list-text" style="width: 300px; margin-right: 80px;">
+                            <li>操作系统 ：Windows7.0、Mac OS 10.0及以上</li>
+                            <li>浏览器 ：Chrome（建议）</li>
+                            <li>显示屏 ：1920*1080(建议)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="para-block clearfix">
+                    <div class="para-left">
+                        云服务端
+                    </div>
+                    <div class="para-right">
+                        <ul class="list-text" style="width: 300px; margin-right: 80px;">
+                            <li>APP移动端云服务</li>
+                            <li>缴费提醒短信云服务</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="para-block clearfix">
+                    <div class="para-left">
+                        软件功能
+                    </div>
+                    <div class="para-right">
+                        <div class="two-point clearfix">
+                            <dl>
+                                <dt>
+                                    <img src="../img/tenantlease/eleven-ico01.png" alt=""></dt>
+                                <dd>租户管理</dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <img src="../img/tenantlease/eleven-ico02.png" alt=""></dt>
+                                <dd>物业监控</dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <img src="../img/tenantlease/eleven-ico03.png" alt=""></dt>
+                                <dd>租户通APP</dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <img src="../img/tenantlease/eleven-ico04.png" alt=""></dt>
+                                <dd>报表打印</dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <img src="../img/tenantlease/eleven-ico05.png" alt=""></dt>
+                                <dd style="width: 108px; text-indent: -31px;">租户机电咨询诊断</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="para-block clearfix" style="margin-bottom:90px;border-bottom:0">
+                    <div class="para-left">
+                        可集成产品
+                    </div>
+                    <div class="para-right">
+                        <p style="margin-bottom:15px;font-size:16px;font-weight:bold;text-align:left;">iSagy能源管理系统作为平台可集成博锐尚格以下产品 ：</p>
+                        <div class="two-point clearfix kjc">
+                            <dl>
+                                <dt class="one"></dt>
+                                <dd>能源管理系统</dd>
+                            </dl>
+                            <dl>
+                                <dt class="two"></dt>
+                                <dd>智慧物业管理系统</dd>
+                            </dl>
+                            <dl>
+                                <dt class="three"></dt>
+                                <dd>配电监控系统</dd>
+                            </dl>
+                            <dl>
+                                <dt class="four"></dt>
+                                <dd>环境与健康监测系统</dd>
+                            </dl>
+                            <dl>
+                                <dt class="five"></dt>
+                                <dd>冷站群控系统</dd>
+                            </dl>
+                            <dl>
+                                <dt class="six"></dt>
+                                <dd>BIM运维管理系统</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--footer-->
+        <div class="persagy_footer clearfix">
+            <div class="persagy_footer_cont">
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li>|</li>
+                    <li><a href="contactUs.html">联系我们</a></li>
+                    <li>|</li>
+                    <li><a href="news.htm">新闻中心</a></li>
+                    <li>|</li>
+                    <li><a href="about_3.htm">知识产权声明</a></li>
+                    <li>|</li>
+                    <li><a href="http://www.persagy.com/page/aboutJoinUs.html">加入我们</a></li>
+                </ul>
+                <p>&copy &nbsp;2014 Persagy. All rights reserved 京ICP备 09030380 号</p>
+                <div class="persagy_footer_weixin">
+                    <img src="../img/weixin.png" alt="微信图" />
+                    <p>微信二维码</p>
+                </div>
+                <div class="persagy_footer_tel">
+                    <p>服务热线: 010-62668362</p>
+                    <p>销售热线: 010-62978399</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

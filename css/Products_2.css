@@ -1,0 +1,70 @@
+﻿::selection{background:#cbeda8}
+::-moz-selection{background:#cbeda8}
+body{
+	height:auto !important;
+	height:860px;
+	width:780px;
+	min-height:860px;
+	color:#676767;
+}
+h3{font-size:18px;font-weight:bold;}
+/*************** 产品 商业集团*/
+p{font-size:14px;line-height:30px;}
+.typical{
+	margin-top:50px;
+}
+.typical h3{height:32px;}
+.typicalList li{
+	width:120px;
+	padding-left:30px;
+	font-size:14px;
+	font-weight: bold;
+	float:left;
+	height:30px;
+	line-height: 30px;
+	background:url(../img/pageypicalList.png) no-repeat 5px center;
+}
+.typical dl{
+	width: 600px;
+	height: 450px;
+	margin: 10px auto 0;
+}
+.typical dt{width:600px;height:400px;}
+.typical dd{width:600px;height:50px;line-height: 50px;text-align: center;}
+
+
+/*************** 产品 医院*/
+.mainFunction{float:left;}
+.mainFunction p{
+	margin:25px 0;
+	display: block;
+}
+.mainFunction p b{font-size:13px;float: left;font-weight:bold;}
+
+.qqgzzd{
+	font-size:14px;
+	width:340px;
+	height:150px;
+	background:url(../img/pageHospqqgz.png) no-repeat;
+	padding:90px 0px 60px 400px;
+	line-height: 30px;
+}
+/*************** 产品 校园*/
+.schoolTitle{margin:40px 0;clear:both;}
+.schoolTitle li{
+	line-height: 30px;
+	font-size:14px;
+}
+/*************** 产品 酒店*/
+.hotelBox{height:250px;display: block;clear:both;margin:20px 0;}
+.hotel_pic{width: 250px;height: 215px;display:block;margin-right: 30px;float: left;border:1px solid #dddede;}
+
+.hotelFunction{float:left;width:450px;display: block;}
+.hotelFunction h3{height:42px;line-height:30px;}
+.hotelFunction p{margin:0;line-height:29px;}
+.hotelFunction p b{font-weight:bold;}
+
+
+/**************** 服务系统 */
+.systemint h3{font-weight: bold;font-size:14px;}
+.systemint p{margin-bottom: 40px;}

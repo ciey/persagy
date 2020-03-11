@@ -1,0 +1,52 @@
+﻿::selection{background:#cbeda8}
+::-moz-selection{background:#cbeda8}
+body{
+	height:auto !important;
+	height:860px;
+	width:780px;
+	min-height:860px;
+	color:#676767;
+}
+h3{font-size:18px;font-weight:bold;}
+/*************** 创新实验室*/
+p{font-size:14px;line-height:30px;}
+p.maginfive{margin:30px 0;}
+p.mraginten{margin:10px 0;}
+/* 类 标题和段落排版*/
+.layoutTP{display: block;margin-bottom:30px;}
+.layoutTP b{display: block;font-size:14px;height:30px;line-height: 30px;color:#3f3f3f;}
+
+
+/* 类  标题  段落 ulli 版式*/
+.acquTpU{display: block;margin-bottom:20px;}
+.acquTpU h3{height:40px;line-height:40px;font-size:18px;font-weight: bold;}
+.acquTpU li{font-size:14px;line-height: 30px;}
+.acquTpU li img{margin-right:8px;}
+.acquTpU dl{display: block;margin: 30px auto;text-align:center;}
+.acquTpU dl dt img{text-align:center;border:0;display:block;}
+.acquTpU dl dd{font-size:14px;color:#676767;text-align: center;height:50px;line-height:60px;}
+
+.mubiao li{
+	background:url(../img/pageinterLiback.png) no-repeat;
+	width:95px;
+	padding:0 19px 0 10px;
+	float:left;	
+}
+.mubiao li h6{height:80px;line-height:40px;font-size:14px;color:#fff;text-align:center;}
+.mubiao li p{color:#676767;width:95px;display: block;line-height:22px;}
+
+/* 类  建筑 样图*/
+.effpic{width:240px;height:166px;display: block;float:left;margin:10px 30px 0 0;background:url(../img/pageeffpic.png) no-repeat;}
+
+
+
+
+
+
+
+
+
+
+
+
+

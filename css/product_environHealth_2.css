@@ -1,0 +1,1034 @@
+html {
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    min-width: 1008px;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.w1008 {
+    width: 1008px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.eh_wrap h4 {
+    line-height: 34px;
+    color: #4b4848;
+    font-size: 24px;
+    text-align: center;
+}
+
+.eh_wrap h5 {
+    font-weight: normal;
+    font-size: 20px;
+    color: #4b4848;
+    text-align: center;
+    line-height: 44px;
+}
+
+.eh_wrap h6 {
+    color: #4b4848;
+    font-size: 16px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.eh_wrap p {
+    line-height: 32px;
+}
+
+#header {
+    position: static;
+    background-color: #ffffff;
+}
+
+.first_section {
+    background-color: #ffffff;
+}
+
+.first_section .s_box {
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.first_section .fir_pc {
+    width: 880px;
+    height: 220px;
+    margin: 0 auto;
+    background: url(../img/environHealth/firstTop.png) no-repeat center;
+}
+
+.first_section .fir_detail {
+    width: 720px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.first_section .fir_detail:after {
+    content: '';
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+.first_section .fir_detail dl {
+    width: 240px;
+    height: 120px;
+    text-align: center;
+    float: left;
+}
+
+.first_section .fir_detail dd {
+    padding-top: 18px;
+    font-size: 16px;
+    color: #666;
+    font-weight: bold;
+}
+
+.first_section .fir_text {
+    height: 188px;
+    overflow: hidden;
+}
+
+.first_section .fir_text p {
+    font-size: 15px;
+    color: #262626;
+    text-align: center;
+}
+
+.second_section {
+    background-color: #ebf2f1;
+}
+
+.second_section .s_box {
+    padding-top: 140px;
+    padding-bottom: 18px;
+}
+
+.second_section .sec_build {
+    position: relative;
+    margin: 0 auto;
+    width: 430px;
+    height: 370px;
+    background: url(../img/environHealth/secondTop.png) no-repeat center;
+}
+
+.second_section .sec_build .note_1 {
+    position: absolute;
+    top: -14px;
+    left: -92px;
+    width: 242px;
+    height: 114px;
+    background: url(../img/environHealth/sec_node1.png) no-repeat center;
+}
+
+.second_section .sec_build .note_2 {
+    position: absolute;
+    top: 202px;
+    left: -86px;
+    width: 236px;
+    height: 18px;
+    background: url(../img/environHealth/sec_node2.png) no-repeat center;
+}
+
+.second_section .sec_build .note_3 {
+    position: absolute;
+    top: 40px;
+    right: -79px;
+    width: 241px;
+    height: 120px;
+    background: url(../img/environHealth/sec_node3.png) no-repeat center;
+}
+
+.second_section .sec_text {
+    padding-top: 57px;
+    margin-left: 150px;
+    height: 190px;
+    overflow: hidden;
+}
+
+.second_section .sec_text h4 {
+    text-align: left;
+}
+
+.second_section .sec_text h5 {
+    text-align: left;
+}
+
+.second_section .sec_text h6 {
+    text-align: left;
+}
+
+.third_section {
+    background-color: #ffffff;
+}
+
+.third_section .s_box {
+    padding-top: 80px;
+    padding-bottom: 66px;
+}
+
+.third_section .thir_text {
+    height: 203px;
+    overflow: hidden;
+}
+
+.third_section .thir_monitor {
+    width: 482px;
+    height: 482px;
+    position: relative;
+    margin: 30px auto 0 auto;
+    background: url(../img/environHealth/thir_build.png) no-repeat center;
+}
+
+.third_section .thir_monitor .th_back {
+    width: 482px;
+    height: 482px;
+    background: url(../img/environHealth/thir_back.png) no-repeat center;
+}
+
+.third_section .thir_monitor .cir_pic {
+    position: absolute;
+    width: 66px;
+    height: 66px;
+}
+
+.third_section .thir_monitor .th_cir01 {
+    top: 423px;
+    left: 98px;
+    background-image: url(../img/environHealth/thir_cir01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.third_section .thir_monitor .th_cir02 {
+    top: 280px;
+    left: -22px;
+    background-image: url(../img/environHealth/thir_cir02.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.third_section .thir_monitor .th_cir03 {
+    top: 126px;
+    left: -16px;
+    background-image: url(../img/environHealth/thir_cir03.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.third_section .thir_monitor .th_cir04 {
+    top: 6px;
+    left: 88px;
+    background-image: url(../img/environHealth/thir_cir04.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.third_section .thir_monitor .th_cir05 {
+    top: -20px;
+    left: 286px;
+    background-image: url(../img/environHealth/thir_cir05.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.third_section .thir_monitor .th_cir06 {
+    top: 125px;
+    left: 430px;
+    background-image: url(../img/environHealth/thir_cir06.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.third_section .thir_monitor .th_pc {
+    position: absolute;
+    top: 226px;
+    left: 202px;
+    width: 430px;
+    height: 250px;
+    background-image: url(../img/environHealth/thir_pc.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.forth_section {
+    background-color: #f4f2f1;
+}
+
+.forth_section .s_box {
+    padding-top: 92px;
+    padding-bottom: 66px;
+}
+
+.forth_section .for_text {
+    height: 172px;
+    overflow: hidden;
+}
+
+.forth_section .for_pc {
+    width: 740px;
+    height: 510px;
+    position: relative;
+    margin: 46px auto 0 auto;
+}
+
+.forth_section .left_pc {
+    width: 540px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../img/environHealth/for_lpc.png) no-repeat left top;
+}
+
+.forth_section .right_pc {
+    width: 530px;
+    height: 320px;
+    position: absolute;
+    top: 144px;
+    right: 0;
+    background: url(../img/environHealth/for_rpc.png) no-repeat left top;
+}
+
+.fifth_section {
+    background-color: #ffffff;
+}
+
+.fifth_section .s_box {
+    padding-top: 92px;
+    padding-bottom: 80px;
+}
+
+.fifth_section .fif_app {
+    width: 600px;
+    height: 450px;
+    margin: 86px auto 0 auto;
+    background: url(../img/environHealth/fifApp.png) no-repeat top left;
+}
+
+.sixth_section {
+    background-color: #f9f9f9;
+}
+
+.sixth_section .s_box {
+    padding-top: 92px;
+    padding-bottom: 100px;
+}
+
+.sixth_section .six_text {
+    height: 176px;
+    overflow: hidden;
+}
+
+.sixth_section .six_project {
+    width: 416px;
+    height: 416px;
+    position: relative;
+    margin: 8px auto 0 auto;
+    border: 1px solid #f9f9f9;
+}
+
+.sixth_section .six_project .six_circle {
+    width: 416px;
+    height: 416px;
+    background: url(../img/environHealth/six_cir.png) no-repeat center;
+}
+
+.sixth_section .six_project .six_page_1 {
+    position: absolute;
+    top: 146px;
+    left: -56px;
+    width: 298px;
+    height: 224px;
+    background: url(../img/environHealth/six_page01.png) no-repeat top left;
+}
+
+.sixth_section .six_project .six_page_2 {
+    position: absolute;
+    top: 60px;
+    left: 38px;
+    width: 314px;
+    height: 241px;
+    background: url(../img/environHealth/six_page02.png) no-repeat top left;
+}
+
+.sixth_section .six_project .six_tool {
+    position: absolute;
+    top: 58px;
+    left: 355px;
+    width: 122px;
+    height: 185px;
+    background: url(../img/environHealth/six_tool.png) no-repeat top left;
+}
+
+.sixth_section .six_project .six_glass {
+    position: absolute;
+    top: 166px;
+    left: 256px;
+    width: 149px;
+    height: 149px;
+    background: url(../img/environHealth/six_glass.png) no-repeat top left;
+}
+
+.seven_section {
+    background-color: #eaeaea;
+}
+
+.seven_section .s_box {
+    padding-top: 100px;
+    padding-bottom: 66px;
+}
+
+.seven_section .sev_pc {
+    width: 560px;
+    height: 530px;
+    margin: 66px auto 0 auto;
+    background: url(../img/environHealth/sev_pc.png) no-repeat top left;
+}
+
+.eighth_section {
+    background-color: #ffffff;
+}
+
+.eighth_section .s_box {
+    padding-top: 100px;
+    padding-bottom: 6px;
+}
+
+.eighth_section .eig_text {
+    height: 202px;
+    overflow: hidden;
+}
+
+.eighth_section .eig_design {
+    position: relative;
+    width: 606px;
+    height: 476px;
+    margin: 10px auto 0 auto;
+    background-repeat: no-repeat;
+    background-position: center 90px;
+    background-image: url(../img/environHealth/eigSensor.png);
+}
+
+.eighth_section .eig_design .part_01 {
+    position: absolute;
+    top: 0;
+    right: 62px;
+    width: 168px;
+    height: 128px;
+    background: url(../img/environHealth/eigPart01.png) no-repeat center;
+}
+
+.eighth_section .eig_design .part_02 {
+    position: absolute;
+    top: 68px;
+    right: 0;
+    width: 232px;
+    height: 136px;
+    background: url(../img/environHealth/eigPart02.png) no-repeat center;
+}
+
+.eighth_section .eig_design .part_03 {
+    position: absolute;
+    top: 202px;
+    right: 63px;
+    width: 174px;
+    height: 100px;
+    background: url(../img/environHealth/eigPart03.png) no-repeat center;
+}
+
+.eighth_section .eig_design .part_04 {
+    position: absolute;
+    top: 230px;
+    right: 8px;
+    width: 230px;
+    height: 180px;
+    background: url(../img/environHealth/eigPart04.png) no-repeat center;
+}
+
+.eighth_section .eig_design .part_05 {
+    position: absolute;
+    top: 278px;
+    right: 90px;
+    width: 146px;
+    height: 158px;
+    background: url(../img/environHealth/eigPart05.png) no-repeat center;
+}
+
+.eighth_section .eig_design .part_06 {
+    position: absolute;
+    top: 308px;
+    left: 100px;
+    width: 136px;
+    height: 162px;
+    background: url(../img/environHealth/eigPart06.png) no-repeat center;
+}
+
+.eighth_section .eig_design .part_07 {
+    position: absolute;
+    top: 233px;
+    left: 83px;
+    width: 152px;
+    height: 140px;
+    background: url(../img/environHealth/eigPart07.png) no-repeat center;
+}
+
+.eighth_section .eig_design .part_08 {
+    position: absolute;
+    top: 190px;
+    left: 0;
+    width: 234px;
+    height: 124px;
+    background: url(../img/environHealth/eigPart08.png) no-repeat center;
+}
+
+.eighth_section .eig_design .part_09 {
+    position: absolute;
+    top: 98px;
+    left: 100px;
+    width: 132px;
+    height: 106px;
+    background: url(../img/environHealth/eigPart09.png) no-repeat center;
+}
+
+.eighth_section .eig_design .part_10 {
+    position: absolute;
+    top: 0;
+    left: 82px;
+    width: 152px;
+    height: 140px;
+    background: url(../img/environHealth/eigPart10.png) no-repeat center;
+}
+
+.eighth_section .eig_cont {
+    margin-top: 56px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.eighth_section .eig_cont p {
+    font-size: 15px;
+    color: #262626;
+    text-align: center;
+}
+
+.ninth_section {
+    background-color: #f9f9f9;
+}
+
+.ninth_section .s_box {
+    width: 818px;
+    padding-top: 92px;
+    padding-bottom: 58px;
+}
+
+.ninth_section .nin_text {
+    overflow: hidden;
+    height: 120px;
+}
+
+.ninth_section .nin_text h4 {
+    text-align: left;
+}
+
+.ninth_section .nin_text h5 {
+    text-align: left;
+}
+
+.ninth_section .nin_analyse {
+    margin-top: 8px;
+    overflow: hidden;
+    width: 818px;
+    height: 652px;
+    background: url(../img/environHealth/nin_back.png) no-repeat left bottom;
+}
+
+.ninth_section .nin_analyse p {
+    font-size: 15px;
+    color: #262626;
+    text-align: left;
+}
+
+.tenth_section {
+    background-color: #fef9ed;
+}
+
+.tenth_section .s_box {
+    width: 818px;
+    padding-top: 92px;
+    padding-bottom: 56px;
+}
+
+.tenth_section .ten_text h4 {
+    text-align: left;
+}
+
+.tenth_section .ten_text h5 {
+    text-align: left;
+}
+
+.tenth_section .ten_frame {
+    margin-top: 30px;
+    width: 818px;
+    height: 680px;
+    background: url(../img/environHealth/ten_back.png) no-repeat left top;
+}
+
+.eleven_section {
+    background-color: #ffffff;
+}
+
+.eleven_section .s_box {
+    padding-top: 90px;
+}
+
+.eleven_section .ele_cont {
+    margin-left: 95px;
+    width: 850px;
+}
+
+.eleven_section .ele_cont h5 {
+    line-height: 30px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.eleven_section .ele_cont h6 {
+    font-weight: normal;
+    text-align: left;
+}
+
+.eleven_section .ele_list {
+    padding-top: 40px;
+    padding-bottom: 22px;
+    color: #333;
+    border-bottom: 1px solid #ababab;
+    overflow: hidden;
+}
+
+.eleven_section .ele_list:after,
+.eleven_section .ele_list:before {
+    content: '.';
+    display: block;
+    visibility: hidden;
+}
+
+.eleven_section .ele_list:after {
+    clear: both;
+}
+
+.eleven_section .ele_list .ll_title {
+    width: 196px;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.eleven_section .ele_list .lr_cont {
+    width: 650px;
+    float: left;
+    color: #333;
+    font-size: 14px;
+}
+
+.eleven_section .ele_list .lr_cont ul {
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.eleven_section .ele_list .lr_cont ul li {
+    float: left;
+    line-height: 20px;
+    min-height: 16px;
+}
+
+.eleven_section .ele_list .lr_cont ul li.bold {
+    font-weight: bold;
+}
+
+.eleven_section .ele_list .lr_cont ul li.name {
+    width: 140px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.eleven_section .ele_list .lr_cont ul li.cont {
+    width: 250px;
+}
+
+.eleven_section .ele_list .lr_cont img {
+    padding-bottom: 20px;
+}
+
+.eleven_section .ele_list .lr_cont p {
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+
+.eleven_section .ele_list .lr_cont .ele_soft {
+    width: 400px;
+    height: 40px;
+    padding-top: 70px;
+    background: url(../img/environHealth/eleSoft.png) no-repeat left top;
+    white-space: nowrap;
+}
+
+.eleven_section .ele_list .lr_cont .ele_soft span {
+    margin-right: 66px;
+}
+
+.support .status {
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+.support .status2 {
+    transition: all 1.2s ease;
+    -moz-transition: all 1.2s ease;
+    -webkit-transition: all 1.2s ease;
+    -ms-transition: all 1.2s ease;
+}
+
+.support .noneSee {
+    opacity: 0;
+}
+
+
+/*第一个块*/
+
+.support .fir_detail dt {
+    opacity: 0;
+    transform: scale(0);
+}
+
+.support .fir_text h4 {
+    transform: translateY(40px);
+    opacity: 0;
+}
+
+.support .fir_text h5 {
+    transform: translateY(60px);
+    opacity: 0;
+}
+
+.support .fir_text p {
+    transform: translateY(80px);
+    opacity: 0;
+}
+
+.support .fir_detail dt.move {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.support .fir_text h4.move {
+    transform: none;
+    opacity: 1;
+    transition: all 1.5s ease 0.3s;
+}
+
+.support .fir_text h5.move {
+    transform: none;
+    opacity: 1;
+    transition: all 1.5s ease 0.4s;
+}
+
+.support .fir_text p.move {
+    transform: none;
+    opacity: 1;
+    transition: all 1.5s ease 0.5s;
+}
+
+
+/*第二个块*/
+
+.support .sec_text h4 {
+    transform: translateY(40px);
+    opacity: 0;
+}
+
+.support .sec_text h5 {
+    transform: translateY(60px);
+    opacity: 0;
+}
+
+.support .sec_text h6 {
+    transform: translateY(80px);
+    opacity: 0;
+}
+
+.support .sec_text h4.move {
+    transform: none;
+    opacity: 1;
+    transition: all 1.5s ease;
+}
+
+.support .sec_text h5.move {
+    transform: none;
+    opacity: 1;
+    transition: all 1.5s ease 0.1s;
+}
+
+.support .sec_text h6.move {
+    transform: none;
+    opacity: 1;
+    transition: all 1.5s ease 0.2s;
+}
+
+.support .sec_build .note_1.move {
+    opacity: 1;
+    transition-delay: 0.8s;
+}
+
+.support .sec_build .note_2.move {
+    opacity: 1;
+    transition-delay: 1.2s;
+}
+
+.support .sec_build .note_3.move {
+    opacity: 1;
+    transition-delay: 1.6s;
+}
+
+
+/*第三个块*/
+
+
+/*第四个块*/
+
+.support .forth_section .left_pc {
+    left: -200px;
+    opacity: 0;
+}
+
+.support .forth_section .right_pc {
+    right: -200px;
+    opacity: 0;
+}
+
+.support .for_text h4 {
+    transform: translateY(40px);
+    opacity: 0;
+}
+
+.support .for_text h5 {
+    transform: translateY(60px);
+    opacity: 0;
+}
+
+.support .for_text h6 {
+    transform: translateY(80px);
+    opacity: 0;
+}
+
+.support .forth_section .left_pc.move {
+    left: 0px;
+    opacity: 1;
+}
+
+.support .forth_section .right_pc.move {
+    right: 0px;
+    opacity: 1;
+}
+
+.support .for_text h4.move {
+    transform: none;
+    opacity: 1;
+    transition: all 1.5s ease 0.8s;
+}
+
+.support .for_text h5.move {
+    transform: none;
+    opacity: 1;
+    transition: all 1.5s ease 0.9s;
+}
+
+.support .for_text h6.move {
+    transform: none;
+    opacity: 1;
+    transition: all 1.5s ease 1s;
+}
+
+
+/*第六个块*/
+
+.support .six_text h4 {
+    transform: translateY(40px);
+    opacity: 0;
+}
+
+.support .six_text h5 {
+    transform: translateY(60px);
+    opacity: 0;
+}
+
+.support .six_text h6 {
+    transform: translateY(80px);
+    opacity: 0;
+}
+
+.support .six_project .six_circle {
+    height: 0;
+    width: 0;
+    margin-left: 208px;
+    margin-top: 208px;
+    border-radius: 0px;
+}
+
+.support .six_project .six_glass {
+    opacity: 0;
+    transform: translate(66px, 66px);
+}
+
+.support .six_text h4.move {
+    transform: none;
+    opacity: 1;
+    transition: all 1.5s ease;
+}
+
+.support .six_text h5.move {
+    transform: none;
+    opacity: 1;
+    transition: all 1.5s ease 0.1s;
+}
+
+.support .six_text h6.move {
+    transform: none;
+    opacity: 1;
+    transition: all 1.5s ease 0.2s;
+}
+
+.support .six_project .six_circle.move {
+    height: 416px;
+    width: 416px;
+    margin-left: 0;
+    margin-top: 0;
+    border-radius: 208px;
+    transition-delay: 0.5s;
+}
+
+.support .six_project .six_page_1.move {
+    opacity: 1;
+    transition-delay: 1s;
+}
+
+.support .six_project .six_page_2.move {
+    opacity: 1;
+    transition-delay: 1.3s;
+}
+
+.support .six_project .six_tool.move {
+    opacity: 1;
+    transition-delay: 1.6s;
+}
+
+.support .six_project .six_glass.move {
+    opacity: 1;
+    transform: none;
+    /*transition-delay: 1.9s;*/
+    transition: all 1.2s ease 1.9s;
+}
+
+
+/*第八个块*/
+
+.support .eig_text h4 {
+    transform: translateY(40px);
+    opacity: 0;
+}
+
+.support .eig_text h5 {
+    transform: translateY(60px);
+    opacity: 0;
+}
+
+.support .eig_text h6 {
+    transform: translateY(80px);
+    opacity: 0;
+}
+
+.support .eig_design li {
+    opacity: 0;
+}
+
+.support .eig_cont p {
+    margin-top: 34px;
+    opacity: 0;
+}
+
+.support .eig_design li.move {
+    opacity: 1;
+    transition: all 1.3s ease-out;
+}
+
+.support .eig_text h4.move {
+    transform: none;
+    opacity: 1;
+    transition: all 1.5s ease 0.9s;
+}
+
+.support .eig_text h5.move {
+    transform: none;
+    opacity: 1;
+    transition: all 1.5s ease 1s;
+}
+
+.support .eig_text h6.move {
+    transform: none;
+    opacity: 1;
+    transition: all 1.5s ease 1.1s;
+}
+
+.support .eig_cont p.move {
+    margin-top: 0px;
+    opacity: 1;
+    transition: all 1.2s ease 2s;
+}
+
+
+/*第九个块*/
+
+.support .nin_text h4 {
+    transform: translateY(40px);
+    opacity: 0;
+}
+
+.support .nin_text h5 {
+    transform: translateY(60px);
+    opacity: 0;
+}
+
+.support .nin_analyse p {
+    margin-top: 34px;
+    opacity: 0;
+}
+
+.support .nin_text h4.move {
+    transform: none;
+    opacity: 1;
+    transition: all 1.5s ease;
+}
+
+.support .nin_text h5.move {
+    transform: none;
+    opacity: 1;
+    transition: all 1.5s ease 0.1s;
+}
+
+.support .nin_analyse p.move {
+    margin-top: 0px;
+    opacity: 1;
+    transition: all 1.2s ease 1s;
+}

@@ -1,0 +1,46 @@
+﻿
+
+
+
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+<title>媒体报道更新中</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link href="content/templates/default/news.css" rel="stylesheet" type="text/css" >
+<script src="../js/jquery1.8.3.js"></script>
+
+<script type="text/javascript">
+	function iFrameHeight() {
+		var docs=window.parent.document;
+		var ifm = docs.getElementById("iframepage");
+		var subWeb = docs.frames ? docs.frames["iframepage"].docs : ifm.contentDocument;
+		if (ifm != null && subWeb != null) {
+			ifm.height = subWeb.body.scrollHeight;
+		};
+		
+	}
+window.onload=function(){
+	iFrameHeight();
+}
+</script>
+
+</head>
+<body>	
+<div id='newsCont'> 
+	<h2 class="newsCountTitle">媒体报道更新中</h2>
+	<p class="date"> <b>发布时间：2011-12-24 </b><b>阅读次数: 591 </b><b>来源：</b>
+	
+	</p>
+	<p class="newsContent">更新中。</p>
+	</div>
+		<div class="nextlog">
+			<p style="padding-bottom:10px;">
+	<span>上一篇:</span>	
+	<!--<a href="< ?php echo Url::log($prevLog['gid']) ?>">< ?php echo $prevLog['title'];?></a>-->
+	<a target="_top" href="../page/news_132.htm">博锐尚格助力瑞安集团能耗管理平台建设</a>
+	</p>
+			</div>
+		</body>
+</html>

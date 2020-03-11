@@ -1,0 +1,407 @@
+﻿/* isagy 3d */
+::selection{
+	background:#2aa738;
+	color:#fff;
+}
+::-moz-selection{
+	background:#2aa738;
+	color:#fff;
+}
+*{margin:0;padding:0;}
+html,body{width: 100%;height:auto;background:#0f0f0f;}		
+h3{font-weight:normal;}
+#cont{
+	width:100%;min-width:1008px;height:100%;overflow:hidden;margin:0 auto;
+}
+#viewMask{			
+	position:fixed;left:0;top:0;z-index:100;display:none;
+	width:100%;height:100%;background-color:rgba(0,0,0,.01);
+}
+#viewMask h1{color:#f00;font-size:35px;text-align:center;line-height:300px;}
+#contAnchor{display:none;z-index:200;position:fixed;width:15px;height:140px;right:80px;top:50%;margin-top:-60px;}
+#contAnchor li{
+	width:10px;height:10px;margin-bottom:8px;
+	background-image:url(../img/isagy/anchor.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	cursor:pointer;
+}
+.cutLanguage{
+	line-height: 145px;
+	color:#808080;
+	margin-left: 18px;
+	width: 20px;height: 90px;
+	font-size:14px;
+}
+.cutLanguage:hover{color:#ffffff;}
+#contAnchor li.anchorCur,#contAnchor li:hover{background-position:0 -10px;}
+#modelWrap{width:1008px;height:568px;margin:0 auto;}
+#macvideo{width:1008px;height:568px;}
+
+.isagyHead{height:90px;background:#0f0f0f;}
+#header{background:#0f0f0f;position: static;top: initial;left:initial;}
+#nav{background:#0f0f0f;}
+.first-menu  li.nav_cur{background:#343434;}
+.first-menu  li.nav_cur div.head_home{background:url(../img/csssplit.png) no-repeat -50px top;}
+.first-menu li.nav_cur>a{color:#ffffff;}
+.first-menu  li.nav_select{background:#2aa738}
+.persagy_head{display:none;}
+.sagyOption{
+	width:1008px;height:auto;min-height:480px;margin:0 auto;clear:both;display:block;
+}
+.sagyA_3d{  
+	min-height: 950px;
+	width: 100%;
+	position: relative;
+}
+/* one 3D */
+#aHeadwrap{height:200px;}
+#persagy_logo{
+	width: 280px;
+	background:url(../img/isagy/persagy_logo.png) no-repeat ;
+}
+.sagyA_head{
+	width: 300px;
+	padding-top: 176px;
+	height: 140px;
+	margin: 0 auto;
+	padding-left: 450px;
+	z-index:2;position:relative;
+}
+#persagy_logo a{display: block;width:280px;height:50px;}
+.aHead_title{display:none;width:295px;margin:0 auto;height:75px;line-height: 75px;text-align:center;color:#fff;font-size:60px;font-family:Arial;font-weight: bold;}
+.aHead_jj{display:none;width:295px;height:65px;background:url(../img/isagy/sagyA_head_jj.png) no-repeat;}
+.sagyA_main{
+	position: absolute;
+	left:0;
+	top: 0;
+	bottom:0;
+	display:none;
+	z-index: 1;
+	width:100%;
+	margin:0 auto;
+	background: url(../img/isagy/redpointer.jpg) no-repeat center 0px;
+}
+
+#nav{
+	float:left;
+}
+/* two model message */
+.sagyB_model{
+	position:relative;
+	width:100%;min-width:1008px;
+	height:1450px;
+	margin:0 auto;
+	background:url(../img/isagy/sagy_B_model.jpg) no-repeat center -45px;
+}
+.sagyB_model .modelMessage_data{
+	width:1008px;
+	height:1500px;
+	position:absolute;
+	left:50%;
+	top:0;
+	z-index:1;
+	color:#ffffff;
+	margin-left:-504px;		
+}
+.sagyB_model .model_mask{
+	position:absolute;
+	left:0;top:0;
+	width:100%;
+	opacity:.8;
+	height:1440px;
+	z-index:2;
+	display:block;
+	background:#0f0f0f;
+	-ms-transition:.5s;
+	-o-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	filter:alpha(opacity=50);
+}
+.sagyB_model .modelMessage_intro{
+	position:absolute;
+	left:50%;top:0;
+	width:1008px;
+	height:1500px;
+	margin-left:-504px;
+	color:#cccccc;
+	z-index:3;
+}
+.modelMessage_data>div{position:absolute;overflow:hidden;width:0px;}
+.modelMessage_data>div span{font-size:14px;line-height:20px;color:#808080;}
+.modelMessage_data>div p{font-size:24px;color:#ffffff;line-height:30px;}
+.modelMessage_data>div b{font-size:12px;color:#ffffff;}
+.modelMessage_data>div.mode_line1 span,.modelMessage_data>div.mode_line1 p,.modelMessage_data>div.mode_line1 b{color:#121212;}
+.mode_line1{left: -100px;top: 410px;height:100px;width:auto;background:url(../img/isagy/mode_lineBg1.png) no-repeat 0 0;}
+.mode_line2{left:180px;top:190px;height:100px;width:auto;background:url(../img/isagy/mode_lineBg2.png) no-repeat 0 0;}
+.mode_line3{left: 320px;top: 930px;height:100px;width:auto;background:url(../img/isagy/mode_lineBg3.png) no-repeat 0 0;}
+
+.messMode1{width:450px;height:230px;position:absolute;right:25px;top:270px;opacity:0;}
+.messMode1 h3{font-size:36px;color:#6fb62b;font-family}
+.messMode1 p{line-height:25px;color:#676767;font-size:14px;font-size:Arial;}
+.messMode1>div{padding:20px 30px 0 0;line-height:30px;font-size:14px;color:#cccccc;}
+
+.m_leftLine{float:left;height:100px;background-repeat:no-repeat;}
+.m_rightTxt{width:120px;float:left;}
+.mode_line1 .m_rightTxt{padding-left:90px;}
+.mode_line2 .m_rightTxt{padding-left:125px;}
+.mode_line3 .m_rightTxt{padding-left:220px;}
+
+.messMode2{
+	font-size:14px;
+	color:#ffffff;
+	position:absolute;
+	right:-40px;
+	bottom:300px;
+	width:450px;
+	height:90px;
+	line-height:30px;
+	padding:10px 70px 10px 30px;	
+	opacity:0;	
+}
+.messMode2 div{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	background: #1b1d16;
+	opacity: .8;
+	filter:alpha(opacity=80) !important;
+}
+/* three 3d rotate */
+.sagyC_3drotate{
+	width:100%;overflow:hidden;height:855px;position:relative;
+}
+.isagy_title{
+	width:1008px;height:auto;min-height:60px;text-align:center;margin:0 auto;
+}
+.isagy_title h3{height:40px;font-size:34px;color:#6fb62b;}
+.isagy_title p{height:20px;color:#676767;font-size:14px;line-height:20px;}
+.isagy_title div{height:45px;font-size:30px;color:#666666;line-height:50px;font-weight: bold;}
+#progressBar{margin:10px auto 0;width:186px;height:2px;overflow:hidden;}
+#progressBar li{background:#292929;height:2px;float:left;width:25px;margin:0 3px;}
+#progressBar li.active{background:#6fb62b;}
+.electro{
+	width:650px;height:200px;position:absolute;
+}
+.animateModel{
+	width:1008px;margin-left:-504px;height:570px;
+	position:absolute;
+	left:50%;
+	top:120px;z-index:2;
+}
+.animateModel>div{width:100%;height:100%;}
+
+.aboutModelIntroduce{
+	position:absolute;
+	left:50%;bottom:90px;
+	border-bottom:1px solid #202020;
+	width:1008px;height:700px;
+	margin-left:-504px;
+	display:none;display:block;z-index:3;	
+}
+.aboutModelIntroduce>div{
+	width:1008px;height:60px;
+	display:none;position:absolute;
+	text-align:center;
+	bottom:40px;left:0;	
+	line-height:60px;
+	color:#cccccc;font-size:16px;
+}
+.aboutModelIntroduce>div.mIntroduce_00{display:block;}
+.mIntroduce_00 div.min_01{background-position:30px 0;}
+.mIntroduce_00 div.min_02{background-position:30px -60px;}
+.mIntroduce_00 div.min_03{background-position:30px -120px;}
+
+.aboutModelIntroduce div.mIntroduce_00 div{
+	background-image:url(../img/isagy/aboutIcon.png);
+	background-repeat:no-repeat;
+	width:225px;height:60px;
+	padding-left:110px;float:left;
+	text-align:left;
+}
+.aboutModelIntroduce>div p{
+	line-height:20px;font-size:14px;
+	color:#aaaaaa;
+}
+.aboutModelIntroduce>div>p{
+	font-size: 30px;
+	height:30px;
+	line-height:30px;
+}
+.aboutModelIntroduce>div p.mintrodu_num{
+	font-size:36px;line-height:40px;color:#ffffff;
+}
+.aboutModelIntroduce>div p.mintrodu_num span{font-size:18px;}
+.aboutModelIntroduce .mIntroduceCur{
+	display:block;
+}
+
+/* four 系统组成 */
+.sagyD_system{height:620px;overflow:hidden; padding-top:20px;border-bottom:1px solid #202020;
+}
+.system_cont{width:1008px;height:445px;padding-top:80px;clear:both;}
+.system_cont .s_left{
+float:left;width:480px;height:100%;position:relative;overflow:hidden;/**/
+background:url(../img/isagy/system_bottom.png) no-repeat 0 120px;
+}
+.system_cont .s_left .arrImg{
+/*transition:1s;display:none;*/
+width:300px;height:200px;position:absolute;left:120px;background-repeat:no-repeat;background-position:0 0;
+}
+/* 原始位置 top -180 */
+.arrImg_01{top:-202px;/*top:148px;*/background-image:url(../img/isagy/system_arrImg_01.png)}
+.arrImg_02{top:-202px;/*top:-235px;top:115px;*/background-image:url(../img/isagy/system_arrImg_02.png)}
+.arrImg_03{top:-202px;/*top:-266px;top:84px;*/background-image:url(../img/isagy/system_arrImg_03.png)}
+.arrImg_04{top:-202px;/*top:-305px;top:45px;*/background-image:url(../img/isagy/system_arrImg_04.png)}
+.arrImg_05{top:-202px;/*top:-345px;top:5px;*/background-image:url(../img/isagy/system_arrImg_05.png)}
+.arrImg_06{top:-202px;/*top:-375px;top:-25px;*/background-image:url(../img/isagy/system_arrImg_06.png)}
+
+.system_cont .s_right{float:left;padding-top:20px;width:500px;height:100%;color:#cccccc;font-size:14px;line-height:26px;}
+
+/* five 产品功能 */
+.sagyD_function{padding-top:80px;border-bottom:1px solid #202020;}
+.f_option{width:1008px;height:370px;padding-top:110px;clear:both;overflow:hidden;}
+.f_option ul{width: 100%;height: 100%;}
+.f_option ul li{
+	width:220px;height:100%;float:left;padding:0 16px;
+}
+.f_option ul li.fun_01 dl dt{background-position: -3px -3px;}
+.f_option ul li.fun_02 dl dt{background-position: -93px -3px;}
+.f_option ul li.fun_03 dl dt{background-position: -183px -3px;}
+.f_option ul li.fun_04 dl dt{background-position: -273px -3px;}
+
+.f_option ul li dl{width:220px;height:130px;padding-bottom:40px;}
+.f_option ul li dl dt{
+	background-repeat:no-repeat;opacity:0;
+	background-image:url(../img/isagy/function_option.png);
+	height:85px;width:85px;margin:0 auto;
+}
+.f_option ul li dl dd{height: 20px;text-align: center;padding-top: 25px;font-size:20px;color:#cccccc;}
+.f_option ul li div{line-height:24px;font-size:12px;color:#666666;}
+
+/*six 评价*/
+.sagyE_evaluate{
+	background:url(../img/isagy/pingjia.png) no-repeat center center;
+}
+/* seven video */
+.sagyF_video{
+	height:440px;min-height:440px;
+}
+.sagyF_video>div{width: 489px;height: 299px;float: left;margin: 0 6px;background-color:rgba(0,0,0,.3);}
+.sagyF_video>.video1{background:url(../img/isagy/videoPlay1.jpg) no-repeat 0 0; }
+.sagyF_video>.video2{background:url(../img/isagy/videoPlay2.jpg) no-repeat 0 0; }
+.playBtn{width:100%;height:100%;background-image:url(../img/isagy/play.png);background-repeat: no-repeat;background-color:rgba(0,0,0,.3);background-position:20px 205px; cursor:pointer;}
+.playBtn:hover{background-color:initial;}
+
+#mask_playVideo{
+	display:none;
+	position:fixed;
+	left:0;top:0;
+	width:100%;
+	z-index:9999;
+	height:100%;background-color:rgba(0,0,0,.8);
+	background-color:#000000\9;
+}
+#mask_playVideo>div{display:none;width:1280px;height:700px;position:absolute;left:50%;top:50%;margin-top:-350px;margin-left:-640px;background:#000;}
+
+#mask_playVideo div.false_ie{display:block;}
+#mask_playVideo div.true_ie{display:none;}
+
+.video_closeBtn{z-index:999;position:absolute;right:-16px;top:-16px;cursor:pointer;width:32px;height:32px;background:url(../img/isagy/close_normal.png) no-repeat;}
+.video_closeBtn:hover{background:url(../img/isagy/close_hover.png) no-repeat;}
+#cont .persagy_footer{background:#1a1a1a;}
+#cont .persagy_footer_cont{background:#1a1a1a;opacity:.5;}
+
+.false_ie,.true_ie{width:100%;height:100%;}
+.true_ie .video_closeBtn{right:-32px;top:-32px;}
+
+.ie_model{
+	width:1008px;
+	height:568px;
+	position:absolute;
+	left:0;
+	top:100px;
+	background:#f00;
+	z-index:4;
+	display:none;
+	margin-left: -504px;
+	left: 50%;
+}
+#video-redpoint{
+	width:100%;	
+	height: 720px;
+	text-align: center;
+	position: relative;
+}
+#video-redpoint:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    width: 0;
+}
+#video-redpoint video{
+	display: inline-block;
+	width: 100%;
+	max-width: 1280px;
+	vertical-align: middle;
+}
+.video-cover{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	cursor:pointer;
+	background:url(../img/isagy/fengmian.png) no-repeat center 0;
+}
+.video-cover:before,
+.video-cover:after{
+	content:"";
+	display: block;
+	width:100%;
+	height:100%;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.video-cover:hover:before{
+	background-color:transparent;
+}
+.video-cover:before{
+	background-color:rgba(0,0,0,.3);
+}
+.video-cover:after{
+	background-image:url(../img/isagy/play.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.video-media{
+	visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

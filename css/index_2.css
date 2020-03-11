@@ -1,0 +1,1240 @@
+﻿::selection{background:#cbeda8}
+::-moz-selection{background:#cbeda8}
+a:focus{outline:none; -moz-outline:none;}
+/******************banner img******************/
+body{font-family:"微软雅黑",Arial, Verdana, Helvetica, sans-serif;}
+#index_banner,#index_banner .bannerPic{
+	position: relative; 
+	margin:0 auto;
+	min-width:1008px;
+	width:100%;
+	height:565px;
+	overflow:hidden;
+}
+#index_banner .bannerPic{
+	height:515px;
+}
+#index_banner .BanPic{
+	position:absolute;
+	left:0;
+	top:0;
+	min-width:1008px;
+	width: 100%;
+	float:left;
+	height:515px;
+	display:none;
+	z-index:5;
+}
+#index_banner .BanPic a{
+	position: relative;
+	display: block;
+	min-width: 1008px;
+	max-width: 1420px;
+	height: 100%;
+	margin: 0 auto;
+	overflow:hidden;
+	background:#fff;
+}
+#index_banner .BanPic a img{
+	position: absolute;
+	left:50%;
+	margin-left:-710px;
+	width:1420px;
+	height:515px;
+	display: block;
+	border: 0;
+} 
+/*banner num*/
+#index_banner .bannerNum{
+	text-align: center;
+    height: 35px;
+    padding-top: 15px;
+    font-size: 0;
+    line-height: 35px;
+    cursor: pointer;
+}
+#index_banner .bannerNum a{
+	width:16px;
+	height:16px;
+	display:inline-block;
+	margin:2px;
+	background:url(../img/csssplit.png) no-repeat 0 -25px;
+}
+#index_banner .bannerNum a:hover{
+	background-position:-16px -25px; 
+}
+#index_banner .bannerNum a.banNumCur{
+	background-position:-16px -25px; 
+}
+
+
+.persagy_who,.persagy_doing,.persagy_project,.persagy_help,.persagy_three_skill,.persagy_four_skill,.persagy_cases,.persagy_people,.persagy_estateClients,.persagy_footer{
+	clear:both;
+}
+
+/***************our news**************/
+.ournews{
+	width: 1008px;
+	margin: 0 auto;
+	height:422px;
+	border-bottom:1px solid #cccccc;
+	overflow:hidden;clear:both;
+}
+.ournews_title{
+	width:100%;padding-top:80px;text-align:center;
+}
+.ournews_title h1{font-size: 28px;color: #2aa738;margin-bottom:3px;}
+.ournews_title span{font-size: 14px;color: #676767;}
+.ournews_cont{
+	width:1008px;height:250px;padding:45px 0 0 0px;clear:both;overflow:hidden;	
+}
+.ournews_cont .ournews_left{
+	width:400px;height:250px;float:left;
+	margin-right:100px;
+}
+.ournews_cont .ournews_option h2{
+	font-size: 28px;color: #264e75;
+	font-weight: 200;padding:0 0 35px;
+}
+.ournews_cont .ournews_option ul{
+	
+}
+.ournews_cont .ournews_option li{
+	height:33px;
+	padding-left:18px;background: url(../img/page_new_li_back.png) no-repeat left center;
+}
+.ournews_cont .ournews_option li a{
+	text-align: left;display: block;
+	height: 33px;line-height: 33px;
+	color: #676767;font-size: 14px;
+	white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:400px;
+}
+.ournews_cont .ournews_option li a:hover{
+	text-decoration: underline;color: #6fb62b;
+}
+
+.ournews_cont .ournews_right{
+	width:400px;height:250px;float:left;margin-left:100px;
+}
+
+/*****************who*****************/
+.persagy_who{
+    width:100%;
+    height:500px;
+}
+.persagy_who_cont_title {
+    width:1008px;
+    height:60px;
+    text-align:center;
+    padding:80px 0 0 0;
+	clear: both;
+}
+.persagy_who_cont_title h1{
+	font-size:28px;
+	color:#2aa738;
+}
+.persagy_who_cont_left {
+	clear:both;
+    width:600px;
+    float:left;
+	height:350px;
+	padding-top:30px;
+}
+
+.persagy_who h2 {
+    font-size:28px;
+    color:#264e75;
+    font-weight:200;
+    padding:35px 0;
+}
+h2.moduleHGreen a{
+	font-size: 28px;color: #264e75;
+	font-weight: 200;padding: 35px 0;
+}
+h2.moduleHGreen a:hover{
+	color:#6fb62b;
+}
+.persagy_who span {
+    font-size:14px;
+    color:#676767;
+}
+.persagy_who p{
+    width:560px;
+    font-size:14px;
+    color:#676767;
+    line-height:26px;
+}
+.persagy_who_cont {
+    width:1008px;
+    margin:0 auto;
+	height:500px;
+}
+.persagy_who_right {
+    width:345px;
+    float:right; 
+    height:348px;
+}
+.persagy_who_right_pic {
+    position:relative;
+    
+}
+.persagy_who_right_pic img{
+    display:none;
+}
+
+/*****************doing*****************/
+.persagy_doing {
+    height:501px;
+    width:1008px;
+	border-top:1px solid #cccccc;
+	margin:0 auto;
+}
+.persagy_doing_cont {
+    width:1008px;
+	height:200px;
+    margin:0 auto;
+}
+.persagy_doing_cont_title {
+    width:1008px;
+    height:60px;
+    text-align:center;
+    padding:70px 0 96px 0;
+}
+.persagy_doing_cont_title h1 {
+    color:#2aa738;
+    font-size:28px;
+	margin-bottom: 8px;
+}
+.persagy_doing_cont_title span {
+    color:#676767;
+}
+.persagy_doing_cont_text{
+	width:480px;
+	height:200px;
+	float:left;
+}
+.persagy_doing_cont_text h2 {
+    padding:0 0 34px 0;
+    font-size:28px;
+    color:#264e75;
+    font-weight:200;
+}
+.persagy_doing_cont_text p{
+	width:100%;
+	line-height:30px;
+	font-size:14px;
+	color:#676767;
+}
+.persagy_doing_cont_pic{
+	width:480px;
+	height:110px;
+	float:right;
+	margin-top:60px;
+}
+.persagy_doing_cont_pic>div{
+	width:110px;
+	height:110px;
+	float:left;
+	display:inline;
+	margin-left:50px;
+	overflow:hidden;
+	position:relative;
+	z-index:4;
+}
+/*我们在做什么 第一 pic 动画样式*/
+.doing_cont_pic1{
+	background:url(../img/doing_1.png) no-repeat;
+} 
+.persagy_doing_cont_pic>div.doing_cont_pic1 .doing_1_pointer{
+	width:36px;height:36px;
+	position:absolute;
+	left:36px;top:48px;
+	background:url(../img/doing_1_pointer.png) no-repeat;
+}
+/*我们在做什么 第二pic 动画样式*/
+.doing_cont_pic2>div{
+	position:absolute;
+}
+.doing_cont_pic2 .dcp_1{
+	left:0;
+	top:0;
+	width:110px;
+	height:110px;
+	z-index:1;
+	background:url(../img/doing_background.png) no-repeat;
+}
+.doing_cont_pic2 .dcp_2{
+	left:0;
+	top:0;
+	width:110px;
+	height:110px;
+	z-index:4;
+	background:url(../img/doing_2.png) no-repeat;
+}
+.doing_cont_pic2 .dcp_3{
+	left:0;
+	top:0;
+	width:110px;
+	height:110px;
+	background:url(../img/doing_background.png) no-repeat;
+	z-index:3;
+}
+.doing_cont_pic2 .dcp_4{
+	top:30px;
+	left:23px;
+	width:73px;
+	height:33px;
+	background:url(../img/doing_2_point.png) no-repeat;
+	z-index:2;
+}
+/*我们在做什么 第三 pic 动画样式*/
+
+.doing_cont_pic3>div{
+	width:30px;
+	height:110px;
+	background:url(../img/doing_3.png) no-repeat;
+	position:absolute;
+	top:0
+}
+.doing_cont_pic3 .dch_1{
+	left:0;
+	background-position:0 0 ;
+}
+.doing_cont_pic3 .dch_2{
+	left:35px;
+	background-position:-35px 0 ;
+}
+.doing_cont_pic3 .dch_3{
+	left:75px;
+	background-position:-70px 0 ;
+}
+.doing_cont_pic3 .dch_4{
+	background:url(../img/csssplit.png) no-repeat 0 -132px;
+	top:48px;
+	left:65px;
+	width:45px;
+	height:45px;
+	display:none;
+}
+
+/*****************解决方案*****************/
+.persagy_project {
+    width:100%;
+    height:860px;
+    background:#f2f2f2;
+}
+.persagy_project_title {
+    width:1008px;
+	height:52px;
+    margin:0 auto;
+    text-align:center;
+    padding-top:62px;
+	clear:both;
+}
+.persagy_project_title h1 {
+    color:#2aa738;
+    font-size:28px;
+	margin-bottom: 8px;
+}
+.persagy_project_title span {
+    color:#676767;
+    font-size:14px;	
+}
+.persagy_project_cont{
+	width:1008px;
+	height:745px;
+    margin:0 auto;
+	text-align:center;
+	position:relative;
+	clear:both;
+	background:url(../img/sixSolution_center.png) no-repeat center center;
+}
+.persagy_project_cont>div{
+	display:none;
+}
+.persagy_project_cont .persagy_projectCenter_text{
+	position:absolute;
+	left:50%;
+	top:50%;
+	display:block;
+	width:180px;
+	height:30px;
+	margin:-15px 0 0 -85px; 
+	font-size:30px;
+	font-weight:bold;
+	color:#4f4f4f;
+}
+.persagy_project_cont .project_sixBackground{
+	position:absolute;
+	width:120px;
+	height:120px;
+	background:url(../img/sixBackground.png) no-repeat;
+	z-index:10;
+}
+.persagy_project_cont .project_sixBackground a{
+	display:block;
+	width:120px;
+	height:100px;
+	float:left;
+	padding-top:20px;
+	margin:0 auto;	
+	position:relative;
+}
+.persagy_project_cont .project_sixBackground a:hover {
+	animation:sixAChange .5s;
+	-webkit-animation:sixAChange .5s;
+	-moz-animation:sixAChange .5s;
+	-o-animation:sixAChange .5s;
+	-ms-animation:sixAChange .5s;
+}
+.persagy_project_cont .project_sixBackground a.six_hispital:hover{
+	background:url(../img/six_hispitalHover.png) no-repeat;
+}
+.persagy_project_cont .project_sixBackground a.six_school:hover{
+	background:url(../img/six_schoolHover.png) no-repeat;
+}
+.persagy_project_cont .project_sixBackground a.six_gov:hover{
+	background:url(../img/six_govHover.png) no-repeat;
+}
+.persagy_project_cont .project_sixBackground a.six_hotel:hover{
+	background:url(../img/six_hotelHover.png) no-repeat;
+}
+.persagy_project_cont .project_sixBackground a.six_indestry:hover{
+	background:url(../img/six_indestryHover.png) no-repeat;
+}
+.persagy_project_cont .project_sixBackground a.six_commercial:hover{
+	background:url(../img/six_commercialHover.png) no-repeat;
+}
+.persagy_project_cont .project_sixBackground img{
+	position:absolute;
+	left:20px;
+	top:20px;
+	display:block;
+	width:80px;
+	height:80px;
+	border:0;
+	margin:0 auto;
+	cursor:pointer;
+	
+}
+/*six a hover*/
+@keyframes sixAChange{
+	0% {opacity:0.5;}
+	20%{opacity:0.6;}
+	40%{opacity:0.7;}
+	60%{opacity:0.8;}
+	80%{opacity:0.9;}
+	100%{opacity:1;}
+}
+@-webkit-keyframes sixAChange{
+	0% {opacity:0.5;}
+	20%{opacity:0.6;}
+	40%{opacity:0.7;}
+	60%{opacity:0.8;}
+	80%{opacity:0.9;}
+	100%{opacity:1;}
+}
+
+@-moz-keyframes sixAChange{
+	0% {opacity:0.5;}
+	20%{opacity:0.6;}
+	40%{opacity:0.7;}
+	60%{opacity:0.8;}
+	80%{opacity:0.9;}
+	100%{opacity:1;}
+}
+@-o-keyframes sixAChange{
+	0% {opacity:0.5;}
+	20%{opacity:0.6;}
+	40%{opacity:0.7;}
+	60%{opacity:0.8;}
+	80%{opacity:0.9;}
+	100%{opacity:1;}
+}
+
+
+.persagy_project_cont .Six_Schemes_introduce{
+	position:absolute;
+}
+.persagy_project_cont .Six_Schemes_introduce b{
+	font-size:24px;
+	
+	font-weight:normal;
+	display:block;
+	line-height:30px;
+	float:left;
+}
+.persagy_project_cont .Six_Schemes_introduce b a{
+	color:#264e75;
+}
+.persagy_project_cont .Six_Schemes_introduce b a:hover{
+	color:#6fb62b;
+}
+.persagy_project_cont .Six_Schemes_introduce p{
+	font-size:14px;
+	text-align:left;
+	line-height:30px;
+	float:left;
+	color:#4a4a4a;
+}
+
+/*****************服务系统*****************/
+.persagy_help {
+    width:100%;
+    height:640px;
+}
+.persagy_help_cont,.persagy_three_skill_cont,.persagy_four_skill_cont {
+    width:1008px;
+    margin:0 auto;
+    text-align:center;
+}
+.persagy_help_cont_title,.persagy_three_skill_title,.persagy_four_skill_title{
+	width:1008px;
+    padding-top:60px;
+	margin:0 auto;
+	clear:both;
+	border-top:1px solid #cccccc;
+	text-align:center;
+}
+.persagy_help_cont_title h1,.persagy_three_skill_title h1,.persagy_four_skill_title h1 {
+    color:#2aa738;
+    font-size:28px;
+	padding-bottom:8px;
+}
+.persagy_help_cont_title span,.persagy_three_skill_title span,.persagy_four_skill_title span {
+    font-size:14px;
+    color:#676767;
+}
+.persagy_help_cont_title h2,.persagy_three_skill_title h2,.persagy_four_skill_title h2 {
+    font-size:28px;
+    color:#4f4f4f;
+    padding-top:12px;
+	height:30px;
+}
+.persagy_help_cont_title {
+    padding-bottom:66px
+}
+.persagy_help_cont_left{
+    width:186px;
+    height:323px;
+    float:left;
+	display:inline;
+    margin:0 25px 0 100px;
+	padding:10px;
+}
+.persagy_help_cont_left h1 {
+    font-size:20px;
+	height:20px;
+    color:#264e75;
+    padding-top:30px;
+}
+.persagy_help_cont_left h1 a{
+	display: block;
+	font-size:20px;
+    color:#264e75;
+}
+.persagy_help_cont_left p {
+    font-size:14px;
+    color:#808080; 
+    text-align:left;
+    padding-top:30px; 
+    line-height:28px;  
+}
+.persagy_help_cont_left>div.thereServer_Effect{
+	width:130px;
+	height:130px;
+	clear:both;
+	margin:0 auto;
+	position:relative;
+	cursor:pointer;
+	overflow:hidden;
+}
+/*  降水量  */
+#jsl div.thereServer_Effect a{
+	display:block;
+	width:130px;
+	height:130px;
+}
+#jsl div.thereServer_Effect span{
+	position:absolute;
+	left:29px;
+	top:30px;
+	width:72px;
+	height:72px;
+	background:url(../img/thereServer_jsl_point.png) no-repeat;
+}
+#jsl div.thereServer_Effect span.jslActive{
+	animation:jsl .7s ease-out;
+	-o-animation:jsl .7s ease-out;
+	-moz-animation:jsl .7s ease-out;
+	-webkit-animation:jsl .7s ease-out;
+}
+
+/* 分项能耗 */
+#fxnh .EffectFxnh{
+	width:24px;
+	height:18px;	
+	margin:0px auto 0;
+	clear:both;
+	overflow: hidden;
+}
+#fxnh .EffectFxnh li{
+	float:left;
+	width:2px;
+	height:20px;
+	margin:0 1px;
+	background:url(../img/thereServer_fxnh_bg2.png) no-repeat;
+}
+#fxnh .EffectFxnh li.EffectFxnh_0{
+	animation:fxnh0 .8s ease-out;
+	-moz-animation:fxnh0 .8s ease-out;
+	-o-animation:fxnh0 .8s ease-out;
+	-webkit-animation:fxnh0 .8s ease-out;
+}
+#fxnh .EffectFxnh li.EffectFxnh_1{
+	animation:fxnh1 .8s ease-out;
+	-moz-animation:fxnh1 .8s ease-out;
+	-o-animation:fxnh1 .8s ease-out;
+	-webkit-animation:fxnh1 .8s ease-out;
+}
+#fxnh .EffectFxnh li.EffectFxnh_2{
+	animation:fxnh2 .8s ease-out;
+	-moz-animation:fxnh2 .8s ease-out;
+	-o-animation:fxnh2 .8s ease-out;
+	-webkit-animation:fxnh2 .8s ease-out;
+}
+#fxnh .EffectFxnh li.EffectFxnh_3{
+	animation:fxnh3 .8s ease-out;
+	-moz-animation:fxnh3 .8s ease-out;
+	-o-animation:fxnh3 .8s ease-out;
+	-webkit-animation:fxnh0 .8s ease-out;
+}
+#fxnh .EffectFxnh li.EffectFxnh_4{
+	animation:fxnh3 .8s ease-out;
+	-moz-animation:fxnh3 .8s ease-out;
+	-o-animation:fxnh3 .8s ease-out;
+	-webkit-animation:fxnh3 .8s ease-out;
+}
+#fxnh .EffectFxnh li.EffectFxnh_5{
+	animation:fxnh4 .8s ease-out;
+	-moz-animation:fxnh4 .8s ease-out;
+	-o-animation:fxnh4 .8s ease-out;
+	-webkit-animation:fxnh4 .8s ease-out;
+}
+/*  风力  */
+#fengli>div.thereServer_Effect div{
+	position:absolute;
+}
+#fengli .EffectFengli{
+	left:35px;
+	top:23px;
+	width: 52px;
+	height: 35px;
+	background:url(../img/thereServer_fengli_fly.png) no-repeat;
+}
+/*  风力  动画 */
+#fengli .fengActive{
+	animation:fengliActive .8s ease-out;
+	-o-animation:fengliActive .8s ease-out;
+	-ms-animation:fengliActive .8s ease-out;
+	-moz-animation:fengliActive .8s ease-out;
+	-webkit-animation:fengliActive .8s ease-out;
+}
+#fengli .EffectFlLine{
+	left:60px;
+	top:45px;
+	width:30px;
+	height: 50px;
+	background:url(../img/thereServer_fengli_line.png) no-repeat;
+}
+
+
+/*****************三大技术*****************/
+.persagy_three_skill {
+    width:100%;
+    height:660px;
+}
+.persagy_three_skill_cont {
+    width:968px;
+	height:435px;
+    margin:0 auto;
+	clear:both;
+	padding:10px;
+}
+#persagy_three_skill_page{
+	width:968px;
+	height:450px;
+	clear:both;
+	margin:0 auto;
+	position:relative;
+}
+#persagy_three_skill_page>div{
+	width:968px;
+	height:450px;
+	background:#fff;
+	display:block;
+	position:absolute;
+	left:0;top:0;
+}
+#persagy_three_skill_page>div.persagy_three_two .persagy_three_cont_pic>div{
+	display:none;
+}
+
+#persagy_three_skill_page>div.persagy_three_three .persagy_three_cont_pic{
+	position:relative;color:#28a3dd;
+}
+#persagy_three_skill_page>div.persagy_three_three label{
+	font-size:16px;
+	display:block;
+}
+#persagy_three_skill_page>div.persagy_three_show{
+	display:block;
+}
+#persagy_three_skill_page>div .persagy_three_cont_pic{
+	width:500px;
+	height:450px;
+	margin:0 50px;
+	float:left;
+	position:relative;
+}
+#persagy_three_skill_page>div .persagy_three_cont_pic h3{
+	width:200px;
+	height:80px;
+	position:absolute;
+	border:0;
+	display:none;
+}
+#persagy_three_skill_page>div .persagy_three_cont_pic div{
+	position:absolute;
+}
+#persagy_three_skill_page>div .persagy_three_cont_pic .persagy_three_point{
+	width:8px;
+	height:8px;
+}
+#persagy_three_skill_page>div .persagy_three_cont_pic .persagy_three_line{
+	width:40px;
+	height:60px;
+}
+#persagy_three_skill_page>div .persagy_three_cont_text{
+	width:350px;
+	margin-top:100px;
+	float:left;
+	text-align:left;
+}
+#persagy_three_skill_page>div .persagy_three_cont_text h1{
+	font-size:25px; 
+	font-weight:normal;
+	margin-bottom:20px;
+}
+#persagy_three_skill_page>div .persagy_three_cont_text h1 a.nyyhjwlgzpt{color:#6fb62b;}
+#persagy_three_skill_page>div .persagy_three_cont_text h1 a.nxglydyypt{color:#f18441;}
+#persagy_three_skill_page>div .persagy_three_cont_text h1 a.sssjsyyjspt{color:#28a3dd}
+#persagy_three_skill_page>div .persagy_three_cont_text h1 a.nyyhjwlgzpt:hover,#persagy_three_skill_page>div .persagy_three_cont_text h1 a.nxglydyypt:hover,
+#persagy_three_skill_page>div .persagy_three_cont_text h1 a.sssjsyyjspt:hover{
+	color:#77d42c;
+}
+#persagy_three_skill_page>div .persagy_three_cont_text p{
+	font-size:14px;
+	line-height:30px;
+	color:#808080;
+	width:350px;
+}
+#persagy_three_skill_num{
+	width:60px;
+	height:20px;
+	clear:both;
+	margin:0 auto;
+	text-align:center;
+}
+
+#persagy_three_skill_num span{
+	display:block;
+	width:16px;
+	height:16px;
+	float:left;
+	margin:0 3px 0 0;
+	cursor:pointer;
+	background:url(../img/banner_point01.png) no-repeat;
+}
+#persagy_three_skill_num span.persagy_three_cur{
+	background:url(../img/banner_point.png) no-repeat;
+}
+
+/*****************四大技术*****************/
+.persagy_four_skill {
+    width:100%;
+    height:791px;
+}
+.persagy_four_skill_cont {
+    width:1008px;
+    margin:0 auto;
+	padding-top:40px;
+}
+.persagy_four_skill_cont div.fourSkill{
+	width:464px;
+	float:left;
+	height:220px;
+	margin:40px 0 0 40px;
+	display:inline;
+}
+.persagy_four_skill_cont div.fourSkill .fourSkillLogo{
+	width:135px;
+	height:135px;
+	display:block;
+	float:left;
+}
+.persagy_four_skill_cont div.fourSkill .fourSkillLogo img{
+	border:0;
+	width:100%;
+}
+.persagy_four_skill_cont div.fourSkill .fourSkillDetails{
+	width:300px;
+	height:210px;
+	float:left;
+	margin-left:25px;
+}
+.persagy_four_skill_cont div.fourSkill .fourSkillDetails h3{
+	text-align:left;
+	height:30px;
+	font-size:24px;
+	font-weight:normal;
+}
+.persagy_four_skill_cont div.fourSkill .fourSkillDetails h3 a{
+	display: block;
+	font-size:24px;
+	font-weight:normal;
+}
+.persagy_four_skill_cont div.fourSkill .fourSkillDetails h3 a.Four_wlxxgz{
+	color:#6fb62b;
+}
+.persagy_four_skill_cont div.fourSkill .fourSkillDetails h3 a.Four_dsjznxx{
+	color:#f18441;
+}
+.persagy_four_skill_cont div.fourSkill  .fourSkillDetails h3 a.Four_rjjhjs{
+	color:#199e84;
+}
+.persagy_four_skill_cont div.fourSkill .fourSkillDetails h3 a.Four_jzjnjs{
+	color:#4b4d6a;
+}
+.persagy_four_skill_cont div.fourSkill .fourSkillDetails h3 a.Four_wlxxgz:hover,
+.persagy_four_skill_cont div.fourSkill .fourSkillDetails h3 a.Four_dsjznxx:hover,
+.persagy_four_skill_cont div.fourSkill .fourSkillDetails h3 a.Four_jzjnjs:hover,
+.persagy_four_skill_cont div.fourSkill .fourSkillDetails h3 a.Four_rjjhjs:hover{
+	color:#77d42c;
+}
+
+
+
+.persagy_four_skill_cont div.fourSkill .fourSkillDetails ul{
+	width:300px;
+	height:180px;
+	clear:both;
+}
+.persagy_four_skill_cont div.fourSkill .fourSkillDetails li{
+	width:283x;
+	height:30px;
+	text-align:left;
+	padding-left:15px;
+	font-size:14px;
+	background:url(../img/fourSkillLi.png) no-repeat left center;
+	line-height:30px;
+	color:#808080;
+}
+
+
+
+/*****************经典案例*****************/
+.persagy_cases {
+    width:100%;
+    height:670px;
+    background:#eff5e9;
+}
+.persagy_cases_cont {
+    width:888px;
+	height:520px;
+    margin:0 auto;
+	position:relative;
+	background:#eff5e9;
+}
+
+.clearfix:before, .clearfix:after { content: '.'; display: block; overflow: hidden; visibility: hidden; font-size: 0; line-height: 0; width: 0; height: 0; }
+.clearfix:after { clear: both; }
+
+.persagy_cases_cont {overflow: hidden; position: relative; width:1008px;height:520px;margin:0 auto;}
+#persagy_cases_show { width: 888px; height: 520px; float:left; position: relative;overflow:hidden;overflow:hidden; }
+#persagy_cases_show img { width:888px; height: 520px;display:block;border:0;}
+#persagy_cases_show .heros { width:888px; height:520px; }
+#persagy_cases_show .hero-wrap { overflow: visible; position: absolute; }
+#persagy_cases_show .hero {z-index: 1; position: absolute; top: 0; right: -888px; width: 888px; height: 520px; overflow: hidden;  }
+
+.next,.prev {float:left;height: 60px; width: 35px;display:block;margin-top:200px; background: url(../img/csssplit.png) no-repeat;cursor:pointer;}
+.icon-arrow-a-left { background-position: 0 -65px;  margin-right:25px;}
+.icon-arrow-a-right { background-position: -35px -65px;  margin-left:25px; }
+.icon-arrow-a-left:hover { background-position: -70px -65px; }
+.icon-arrow-a-right:hover { background-position: -105px -65px; }
+
+#persagy_cases_show .hero dl{
+	width:192px;
+	height:212px;
+	margin:40px 15px 0;
+	float:left;
+}
+#persagy_cases_show .hero dt{
+	width:182px;
+	height:152px;
+	padding:4px;
+	background:#fff;
+	border:1px solid #ccd0c6;
+	overflow: hidden;
+}
+#persagy_cases_show .hero dt:hover{
+	background:#77d42c;
+	border:1px solid #77d42c;
+}
+#persagy_cases_show .hero dt a{
+	display: block;
+}
+#persagy_cases_show .hero dt img{
+	border:0;
+	width:182px;
+	height:152px;
+}
+#persagy_cases_show .hero dd{
+	margin:0;
+	width:182px;	
+	height:50px;
+	line-height:50px;
+	font-size:14px;
+	text-align:center;
+	color:#4f4f4f;
+}
+
+/*经典案例*/
+.persagy_cases_cont_title {
+	width: 1008px;
+    padding-top:56px;
+    text-align:center;
+	background:#eff5e9;
+	margin: 0 auto;
+}
+.persagy_cases_cont_title h1 {
+    color:#4f4f4f;
+    font-size:28px;
+    padding-bottom:10px;
+}
+.persagy_cases_cont_title span {
+    color:#2aa738;
+    font-size:24px;
+}
+.persagy_cases_cont_title p {
+    color:#676767;
+    font-size:14px;
+    padding-top:10px;
+	height:20px
+}
+.persagy_cases_href{
+	width:800px;
+	height:200px;
+	margin:0 auto;
+	background:url(../img/dichan.png) no-repeat left top;
+}
+
+/*****************合作伙伴 && 地产客户 ****************/
+.persagy_people,.persagy_estateClients{
+    width:100%;
+    height:340px;
+	padding-bottom:40px;
+}
+.persagy_people_title,.persagy_estateClients_title{
+    width:1008px;
+	height:120px;
+    margin:0 auto;
+    text-align:center;
+}
+.persagy_people_title h1,.persagy_estateClients_title h1 {
+    color:#2aa738;
+	font-size:28px;
+    padding-top:60px;
+    padding-bottom:10px;
+}
+.persagy_people_title span,.persagy_estateClients_title span {
+	height:20px;
+    font-size:14px;
+    color:#676767;
+
+}
+.persagy_people_cont,.persagy_estateClients_cont{
+	width:800px;
+	height:200px;
+	clear:both;	
+	margin:20px auto 0;
+	background:url(../img/dichan.png) no-repeat right top;
+	position:relative;
+}
+.persagy_people_cont a,.persagy_estateClients_cont a{
+	display:block;
+	position:absolute;
+}
+.persagy_people_cont{
+	background-position:left top;
+}
+.persagy_estateClients_cont{
+	
+	background-position:left bottom;
+}
+/************************************/
+
+
+
+/***********返回顶部***********/
+#returnTop{
+	display:none;
+	position:fixed;
+	right:10px;
+	bottom:15px;
+	cursor:pointer;
+	width:30px;
+	height:100px;
+	z-index:100;
+	background:url(../img/csssplit.png) no-repeat left -185px;
+}
+
+/* 关注我们的微博	*/
+.persagy_weibo{
+	width:1008px;height:320px;margin:0 auto;			
+}
+.persagy_wb_title{width:100%;height:110px;text-align:center;}
+.persagy_wb_title h1{
+	color: #2aa738;font-size:30px;height:30px;
+	text-align:center;padding-top:30px;padding-bottom:15px;
+}
+.persagy_wb_title span{height: 20px;font-size: 14px;color:#676767;}
+.persagy_wb_cont{width:100%;height:160px;text-align:center;}
+.persagy_wb_cont ul.weiboList{ width:1008px; height:115px; padding-top:45px;}
+.persagy_wb_cont ul.weiboList li{float:left;margin-left: 60px;width: 275px; height:115px;overflow:hidden;}
+.persagy_wb_cont ul li{width:400px;height:115px;}
+.wb_icon{float:left;width:66px;height:66px;overflow:hidden;}
+.wb_icon a{display:block;}
+.wb_icon img{width:66px;height:66px;border:0;}
+.wb_message{width:144px;margin-left:10px;float:left;}
+.wb_message h6{width:144px;height:20px;text-align:left;font-size:14px;font-weight:normal;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.wb_message h6 a{font-size:14px;line-height:20px;color:#2aa738;height:20px;display: block;text-decoration:none;}
+.wb_message h6 a:hover{text-decoration: underline;}
+.wb_message a.wb_Msignature{width:144px;height:45px;display:block;text-decoration:none;margin-bottom:16px;line-height:22px;font-size:14px;color:#4f4f4f;overflow:hidden;text-overflow:ellipsis;text-align:left;}
+.wb_message a.wb_Msignature:hover{text-decoration:underline;}
+.wb_ewm{width:66px;height:66px;float:left;margin:0 0 0 20px}
+.wb_ewm img{width:66px;height:66px;display:block;border:0;}
+
+
+
+/*三大服务动画 降水量 动画 之下*/
+@keyframes jsl{
+	0% {transform:rotate(0deg);}
+	50% {transform:rotate(140deg);}
+	100%{transform:rotate(0deg);}
+}
+@-webkit-keyframes jsl{
+	0% {-webkit-transform:rotate(0deg);}
+	50% {-webkit-transform:rotate(140deg);}
+	100%{-webkit-transform:rotate(0deg);}
+}
+@-moz-keyframes jsl{
+	0% {-moz-transform:rotate(0deg);}
+	50% {-moz-transform:rotate(140deg);}
+	100%{-moz-transform:rotate(0deg);}
+}
+@-o-keyframes jsl{
+	0% {-o-transform:rotate(0deg);}
+	50% {-o-transform:rotate(140deg);}
+	100%{-o-transform:rotate(0deg);}
+}
+
+/*降水量 动画 之上 分项能耗*/
+
+
+/* 分项能耗 动画1-6*/
+
+/*第六个动画*/
+@keyframes fxnh4{
+	0% {margin-top:15px}
+	50% {margin-top:4px}
+	90%{margin-top:8px}
+	100%{margin-top:6px}
+}
+@-webkit-keyframes fxnh4{
+	0% {margin-top:15px}
+	50% {margin-top:4px}
+	90%{margin-top:8px}
+	100%{margin-top:6px}
+}
+@-o-keyframes fxnh4{
+	0% {margin-top:15px}
+	50% {margin-top:4px}
+	90%{margin-top:8px}
+	100%{margin-top:6px}
+}
+@-moz-keyframes fxnh4{
+	0% {margin-top:15px}
+	50% {margin-top:4px}
+	90%{margin-top:8px}
+	100%{margin-top:6px}
+}
+/*第一个 和第三个动画*/
+@keyframes fxnh0{
+	0% {margin-top:18px}
+	50% {margin-top:0px}
+	90%{margin-top:18px}
+	100%{margin-top:8px}
+}
+@-webkit-keyframes fxnh0{
+	0% {margin-top:18px}
+	50% {margin-top:0px}
+	90%{margin-top:18px}
+	100%{margin-top:8px}
+}
+@-o-keyframes fxnh0{
+	0% {margin-top:18px}
+	50% {margin-top:0px}
+	90%{margin-top:18px}
+	100%{margin-top:8px}
+}
+@-moz-keyframes fxnh0{
+	0% {margin-top:18px}
+	50% {margin-top:0px}
+	90%{margin-top:18px}
+	100%{margin-top:8px}
+}
+/*第二个动画*/
+@keyframes fxnh1{
+	0% {margin-top:0px}
+	50% {margin-top:10px}
+	70%{margin-top:0;}
+	90%{margin-top:5px}
+	100%{margin-top:2px}
+}
+@-webkit-keyframes fxnh1{
+	0% {margin-top:0px}
+	50% {margin-top:10px}
+	90%{margin-top:5px}
+	100%{margin-top:2px}
+}
+@-o-keyframes fxnh1{
+	0% {margin-top:0px}
+	50% {margin-top:10px}
+	90%{margin-top:5px}
+	100%{margin-top:2px}
+}
+@-moz-keyframes fxnh1{
+	0% {margin-top:0px}
+	50% {margin-top:10px}
+	90%{margin-top:5px}
+	100%{margin-top:2px}
+}
+
+/*第四个动画*/
+@keyframes fxnh2{
+	0% {margin-top:4px}
+	25% {margin-top:10px}
+	50% {margin-top:0px}
+	90%{margin-top:18px}
+	100%{margin-top:4px}
+}
+@-webkit-keyframes fxnh2{
+	0% {margin-top:4px}
+	25% {margin-top:10px}
+	50% {margin-top:18px}
+	90%{margin-top:0px}
+	100%{margin-top:4px}
+}
+@-o-keyframes fxnh2{
+	0% {margin-top:4px}
+	25% {margin-top:10px}
+	50% {margin-top:18px}
+	90%{margin-top:0px}
+	100%{margin-top:4px}
+}
+@-moz-keyframes fxnh2{
+	0% {margin-top:4px}
+	25% {margin-top:10px}
+	50% {margin-top:18px}
+	90%{margin-top:0px}
+	100%{margin-top:4px}
+}
+
+/*第五个动画*/
+@keyframes fxnh3{
+	0% {margin-top:4px}
+	25% {margin-top:10px}
+	50% {margin-top:0px}
+	90%{margin-top:18px}
+	100%{margin-top:12px}
+}
+@-webkit-keyframes fxnh3{
+	0% {margin-top:0px}
+	25% {margin-top:6px}
+	50% {margin-top:10px}
+	90%{margin-top:0px}
+	100%{margin-top:12px}
+}
+@-o-keyframes fxnh3{
+	0% {margin-top:4px}
+	25% {margin-top:10px}
+	50% {margin-top:18px}
+	90%{margin-top:0px}
+	100%{margin-top:12px}
+}
+@-moz-keyframes fxnh3{
+	0% {margin-top:4px}
+	25% {margin-top:10px}
+	50% {margin-top:18px}
+	90%{margin-top:0px}
+	100%{margin-top:12px}
+}
+
+/*  风力 animate  */
+@keyframes fengliActive{
+	0% {left:35px;top:23px;}
+	50%  {left:-80px;top:-30px;}	
+	52% { left:-80px;top:185px;}
+	55%{left:170px;top:100px;}
+ 	57%{left:170px;top:170px;}
+	60%{left:170px;top:60px;}
+	100%{left:35px;top:23px;}
+}
+@-webkit-keyframes fengliActive{
+	0% {left:35px;top:23px;}
+	50%  {left:-80px;top:-30px;}	
+	52% { left:-80px;top:185px;}
+	55%{left:170px;top:100px;}
+ 	57%{left:170px;top:170px;}
+	60%{left:170px;top:60px;}
+	100%{left:35px;top:23px;}
+}
+@-o-keyframes fengliActive{
+	0% {left:35px;top:23px;}
+	50%  {left:-80px;top:-30px;}	
+	52% { left:-80px;top:185px;}
+	55%{left:170px;top:100px;}
+ 	57%{left:170px;top:170px;}
+	60%{left:170px;top:60px;}
+	100%{left:35px;top:23px;}
+}
+@-ms-keyframes fengliActive{
+	0% {left:35px;top:23px;}
+	50%  {left:-80px;top:-30px;}	
+	52% { left:-80px;top:185px;}
+	55%{left:170px;top:100px;}
+ 	57%{left:170px;top:170px;}
+	60%{left:170px;top:60px;}
+	100%{left:35px;top:23px;}
+}
+@-moz-keyframes fengliActive{
+	0% {left:35px;top:23px;}
+	50%  {left:-80px;top:-30px;}	
+	52% { left:-80px;top:185px;}
+	55%{left:170px;top:100px;}
+ 	57%{left:170px;top:170px;}
+	60%{left:170px;top:60px;}
+	100%{left:35px;top:23px;}
+}
+
